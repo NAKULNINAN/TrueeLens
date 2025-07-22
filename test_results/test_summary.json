@@ -1,0 +1,13 @@
+{
+  "timestamp": "2025-07-23T03:58:48.984866",
+  "results": {
+    "unit_tests": false,
+    "integration_tests": false,
+    "performance_tests": false
+  },
+  "environment": {
+    "python_version": "3.10.8 (tags/v3.10.8:aaaf517, Oct 11 2022, 16:50:30) [MSC v.1933 64 bit (AMD64)]",
+    "platform": "win32",
+    "working_directory": "C:\\Users\\HP\\media_forensics_app"
+  }
+}

@@ -1,0 +1,484 @@
+2025-07-23 03:28:35,237 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 03:28:35,239 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 03:28:35,240 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 03:28:35,240 - config_manager - INFO - User preferences saved successfully
+2025-07-23 03:28:35,240 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 03:28:35,240 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 03:28:35,240 - config_manager - INFO - User preferences saved successfully
+2025-07-23 03:28:35,240 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 03:28:35,241 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 03:28:35,241 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 03:28:35,241 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 03:28:35,241 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 03:28:35,241 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 03:28:35,241 - config_manager - INFO - User preferences saved successfully
+2025-07-23 03:28:35,242 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 03:28:35,242 - config_manager - INFO - User preferences saved successfully
+2025-07-23 03:28:35,242 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 03:28:35,242 - config_manager - INFO - User preferences saved successfully
+2025-07-23 03:28:35,242 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 03:28:35,243 - config_manager - INFO - User preferences saved successfully
+2025-07-23 03:28:35,243 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 03:28:35,243 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 03:28:35,243 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 03:28:35,243 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 03:28:35,244 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 03:28:35,244 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 03:28:35,244 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 03:28:35,244 - config_manager - INFO - User preferences saved successfully
+2025-07-23 03:28:35,244 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 03:28:35,244 - config_manager - INFO - User preferences saved successfully
+2025-07-23 03:28:35,245 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 03:28:35,245 - config_manager - INFO - User preferences saved successfully
+2025-07-23 03:28:35,245 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 03:28:35,246 - config_manager - INFO - User preferences saved successfully
+2025-07-23 03:28:35,246 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 03:28:35,246 - config_manager - INFO - User preferences saved successfully
+2025-07-23 03:28:35,246 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 03:28:35,246 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 03:28:35,246 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 03:28:35,246 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 03:28:35,246 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 03:28:35,246 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 03:28:35,246 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 03:28:35,248 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 03:28:35,248 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 03:28:35,248 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 03:28:35,248 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 03:28:35,248 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 03:28:35,248 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 03:28:35,249 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 03:28:35,250 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 03:28:35,250 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 03:28:35,250 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 03:28:35,250 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 03:28:35,250 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 03:30:04,460 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 04:07:26,601 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 04:09:48,880 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 04:11:34,696 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 04:11:48,701 - tensorflow - WARNING - From C:\Users\HP\AppData\Local\Programs\Python\Python310\lib\site-packages\keras\src\backend\common\global_state.py:82: The name tf.reset_default_graph is deprecated. Please use tf.compat.v1.reset_default_graph instead.
+
+2025-07-23 04:12:55,755 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 04:13:23,258 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 04:15:00,910 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 04:15:11,025 - tensorflow - WARNING - From C:\Users\HP\AppData\Local\Programs\Python\Python310\lib\site-packages\keras\src\backend\common\global_state.py:82: The name tf.reset_default_graph is deprecated. Please use tf.compat.v1.reset_default_graph instead.
+
+2025-07-23 04:24:00,092 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 04:24:13,282 - tensorflow - WARNING - From C:\Users\HP\AppData\Local\Programs\Python\Python310\lib\site-packages\keras\src\backend\common\global_state.py:82: The name tf.reset_default_graph is deprecated. Please use tf.compat.v1.reset_default_graph instead.
+
+2025-07-23 04:24:54,741 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 04:25:01,842 - root - WARNING - ExifRead not available. Install with: pip install ExifRead
+2025-07-23 04:25:01,843 - root - WARNING - python-magic not available. Install with: pip install python-magic python-magic-bin
+2025-07-23 04:25:18,884 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 04:25:24,812 - root - WARNING - python-magic not available. Install with: pip install python-magic python-magic-bin
+2025-07-23 04:25:44,099 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 04:25:50,825 - root - WARNING - python-magic not available. Install with: pip install python-magic python-magic-bin
+2025-07-23 04:25:51,292 - root - INFO - Memory: 60.3% used
+2025-07-23 04:25:52,308 - root - INFO - CPU: 5.5% used
+2025-07-23 04:27:04,078 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 04:27:10,724 - root - WARNING - python-magic not available. Install with: pip install python-magic python-magic-bin
+2025-07-23 04:27:11,158 - root - INFO - Memory: 62.0% used
+2025-07-23 04:27:12,160 - root - INFO - CPU: 10.9% used
+2025-07-23 04:27:40,945 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 04:27:48,674 - root - WARNING - python-magic not available. Install with: pip install python-magic python-magic-bin
+2025-07-23 04:27:49,083 - root - INFO - Memory: 64.6% used
+2025-07-23 04:27:50,100 - root - INFO - CPU: 12.8% used
+2025-07-23 04:27:55,096 - tensorflow - WARNING - From C:\Users\HP\AppData\Local\Programs\Python\Python310\lib\site-packages\keras\src\backend\common\global_state.py:82: The name tf.reset_default_graph is deprecated. Please use tf.compat.v1.reset_default_graph instead.
+
+2025-07-23 04:28:35,833 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 04:28:43,383 - root - WARNING - python-magic not available. Install with: pip install python-magic python-magic-bin
+2025-07-23 04:28:43,861 - root - INFO - Memory: 64.2% used
+2025-07-23 04:28:44,875 - root - INFO - CPU: 20.6% used
+2025-07-23 04:28:48,193 - utils.model_manager - INFO - Downloading custom...
+2025-07-23 04:28:49,478 - utils.model_manager - ERROR - Failed to download model: 404 Client Error: Not Found for url: http://example.com/custom_xception.pth
+2025-07-23 04:29:10,853 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 04:29:16,645 - root - WARNING - python-magic not available. Install with: pip install python-magic python-magic-bin
+2025-07-23 04:29:16,976 - root - INFO - Memory: 63.9% used
+2025-07-23 04:29:17,991 - root - INFO - CPU: 7.4% used
+2025-07-23 04:29:20,383 - utils.model_manager - INFO - Downloading custom...
+2025-07-23 04:29:21,157 - utils.model_manager - ERROR - Failed to download model: 404 Client Error: Not Found for url: http://example.com/custom_xception.pth
+2025-07-23 04:29:21,160 - utils.model_manager - INFO - Downloading meso4...
+2025-07-23 04:29:22,615 - utils.model_manager - ERROR - Failed to download model: 404 Client Error: Not Found for url: http://example.com/meso4.pth
+2025-07-23 04:29:48,989 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 04:29:55,826 - root - WARNING - python-magic not available. Install with: pip install python-magic python-magic-bin
+2025-07-23 04:29:56,290 - root - INFO - Memory: 63.1% used
+2025-07-23 04:29:57,296 - root - INFO - CPU: 2.3% used
+2025-07-23 04:30:00,724 - utils.model_manager - INFO - Downloading custom...
+2025-07-23 04:30:01,732 - utils.model_manager - ERROR - Failed to download model: 404 Client Error: Not Found for url: http://example.com/custom_xception.pth
+2025-07-23 04:30:01,736 - utils.model_manager - INFO - Downloading meso4...
+2025-07-23 04:30:02,654 - utils.model_manager - ERROR - Failed to download model: 404 Client Error: Not Found for url: http://example.com/meso4.pth
+2025-07-23 04:30:04,387 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 04:30:04,388 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 04:30:04,389 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 04:30:04,390 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 04:30:04,393 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 04:30:04,393 - config_manager - INFO - User preferences saved successfully
+2025-07-23 04:30:04,393 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 04:30:04,393 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 04:30:04,394 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 04:30:04,394 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 04:30:04,394 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 04:30:45,097 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 04:30:51,274 - root - WARNING - python-magic not available. Install with: pip install python-magic python-magic-bin
+2025-07-23 04:30:51,585 - root - INFO - Memory: 64.3% used
+2025-07-23 04:30:52,591 - root - INFO - CPU: 4.2% used
+2025-07-23 04:30:55,137 - utils.model_manager - INFO - Downloading custom...
+2025-07-23 04:30:56,312 - utils.model_manager - ERROR - Failed to download model: 404 Client Error: Not Found for url: http://example.com/custom_xception.pth
+2025-07-23 04:30:56,314 - utils.model_manager - INFO - Downloading meso4...
+2025-07-23 04:30:57,233 - utils.model_manager - ERROR - Failed to download model: 404 Client Error: Not Found for url: http://example.com/meso4.pth
+2025-07-23 04:30:58,709 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 04:30:58,710 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 04:30:58,712 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 04:30:58,714 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 04:30:58,715 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 04:30:58,715 - config_manager - INFO - User preferences saved successfully
+2025-07-23 04:30:58,716 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 04:30:58,717 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 04:30:58,717 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 04:30:58,717 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 04:30:58,717 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 04:31:01,097 - tensorflow - WARNING - From C:\Users\HP\AppData\Local\Programs\Python\Python310\lib\site-packages\keras\src\backend\common\global_state.py:82: The name tf.reset_default_graph is deprecated. Please use tf.compat.v1.reset_default_graph instead.
+
+2025-07-23 04:31:17,935 - root - INFO - Memory: 67.5% used
+2025-07-23 04:31:18,520 - root - INFO - Memory: 67.5% used
+2025-07-23 04:31:18,947 - root - INFO - CPU: 12.9% used
+2025-07-23 04:31:20,386 - root - INFO - CPU: 21.9% used
+2025-07-23 04:31:20,645 - root - INFO - Memory: 68.6% used
+2025-07-23 04:31:21,737 - root - INFO - CPU: 16.5% used
+2025-07-23 04:31:22,014 - utils.model_manager - INFO - Downloading custom...
+2025-07-23 04:31:22,452 - root - INFO - Memory: 70.5% used
+2025-07-23 04:31:23,854 - root - INFO - CPU: 21.5% used
+2025-07-23 04:31:23,855 - utils.model_manager - ERROR - Failed to download model: 404 Client Error: Not Found for url: http://example.com/custom_xception.pth
+2025-07-23 04:31:23,865 - utils.model_manager - INFO - Downloading meso4...
+2025-07-23 04:31:25,462 - utils.model_manager - INFO - Downloading custom...
+2025-07-23 04:31:26,834 - utils.model_manager - ERROR - Failed to download model: 404 Client Error: Not Found for url: http://example.com/meso4.pth
+2025-07-23 04:31:28,229 - utils.model_manager - ERROR - Failed to download model: 404 Client Error: Not Found for url: http://example.com/custom_xception.pth
+2025-07-23 04:31:28,250 - utils.model_manager - INFO - Downloading meso4...
+2025-07-23 04:31:28,311 - utils.model_manager - INFO - Downloading custom...
+2025-07-23 04:31:29,988 - utils.model_manager - ERROR - Failed to download model: 404 Client Error: Not Found for url: http://example.com/custom_xception.pth
+2025-07-23 04:31:29,988 - utils.model_manager - ERROR - Failed to download model: 404 Client Error: Not Found for url: http://example.com/meso4.pth
+2025-07-23 04:31:30,006 - utils.model_manager - INFO - Downloading meso4...
+2025-07-23 04:31:31,154 - utils.model_manager - INFO - Downloading custom...
+2025-07-23 04:31:32,403 - utils.model_manager - ERROR - Failed to download model: 404 Client Error: Not Found for url: http://example.com/meso4.pth
+2025-07-23 04:31:32,919 - utils.model_manager - ERROR - Failed to download model: 404 Client Error: Not Found for url: http://example.com/custom_xception.pth
+2025-07-23 04:31:32,924 - utils.model_manager - INFO - Downloading meso4...
+2025-07-23 04:31:34,521 - utils.model_manager - ERROR - Failed to download model: 404 Client Error: Not Found for url: http://example.com/meso4.pth
+2025-07-23 04:31:39,292 - root - INFO - Memory: 74.5% used
+2025-07-23 04:31:40,300 - root - INFO - CPU: 7.3% used
+2025-07-23 04:31:43,156 - utils.model_manager - INFO - Downloading custom...
+2025-07-23 04:31:43,926 - utils.model_manager - ERROR - Failed to download model: 404 Client Error: Not Found for url: http://example.com/custom_xception.pth
+2025-07-23 04:31:43,929 - utils.model_manager - INFO - Downloading meso4...
+2025-07-23 04:31:44,541 - utils.model_manager - ERROR - Failed to download model: 404 Client Error: Not Found for url: http://example.com/meso4.pth
+2025-07-23 04:31:46,147 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 04:31:46,148 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 04:31:46,149 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 04:31:46,151 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 04:31:46,153 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 04:31:46,154 - config_manager - INFO - User preferences saved successfully
+2025-07-23 04:31:46,154 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 04:31:46,155 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 04:31:46,155 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 04:31:46,155 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 04:31:46,155 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 04:32:09,544 - root - INFO - Memory: 74.3% used
+2025-07-23 04:32:10,555 - root - INFO - CPU: 10.4% used
+2025-07-23 04:32:13,590 - utils.model_manager - INFO - Downloading custom...
+2025-07-23 04:32:14,647 - utils.model_manager - ERROR - Failed to download model: 404 Client Error: Not Found for url: http://example.com/custom_xception.pth
+2025-07-23 04:32:14,650 - utils.model_manager - INFO - Downloading meso4...
+2025-07-23 04:32:15,568 - utils.model_manager - ERROR - Failed to download model: 404 Client Error: Not Found for url: http://example.com/meso4.pth
+2025-07-23 04:32:17,507 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 04:32:17,508 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 04:32:17,509 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 04:32:17,510 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 04:32:17,513 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 04:32:17,513 - config_manager - INFO - User preferences saved successfully
+2025-07-23 04:32:17,516 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 04:32:17,516 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 04:32:17,517 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 04:32:17,517 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 04:32:17,517 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 04:32:18,204 - root - INFO - Processing media: IMG_3700.JPG with mode: Detect AI-Generated Image
+2025-07-23 04:32:18,458 - root - ERROR - Analysis error: cannot identify image file <_io.BytesIO object at 0x000001C5752E8310>
+2025-07-23 04:35:42,908 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 04:35:48,662 - root - WARNING - python-magic not available. Install with: pip install python-magic python-magic-bin
+2025-07-23 04:35:48,999 - root - INFO - Memory: 63.1% used
+2025-07-23 04:35:50,009 - root - INFO - CPU: 1.6% used
+2025-07-23 04:35:53,592 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 04:35:53,593 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 04:35:53,596 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 04:35:53,596 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 04:35:53,597 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 04:35:53,597 - config_manager - INFO - User preferences saved successfully
+2025-07-23 04:35:53,597 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 04:35:53,598 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 04:35:53,598 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 04:35:53,598 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 04:35:53,598 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 04:36:53,395 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 04:36:59,579 - root - WARNING - python-magic not available. Install with: pip install python-magic python-magic-bin
+2025-07-23 04:36:59,899 - root - INFO - Memory: 65.1% used
+2025-07-23 04:37:00,909 - root - INFO - CPU: 4.3% used
+2025-07-23 04:37:04,743 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 04:37:04,745 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 04:37:04,746 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 04:37:04,748 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 04:37:04,749 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 04:37:04,750 - config_manager - INFO - User preferences saved successfully
+2025-07-23 04:37:04,750 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 04:37:04,751 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 04:37:04,751 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 04:37:04,751 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 04:37:04,751 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 04:37:06,902 - tensorflow - WARNING - From C:\Users\HP\AppData\Local\Programs\Python\Python310\lib\site-packages\keras\src\backend\common\global_state.py:82: The name tf.reset_default_graph is deprecated. Please use tf.compat.v1.reset_default_graph instead.
+
+2025-07-23 04:37:16,846 - root - INFO - Memory: 67.5% used
+2025-07-23 04:37:17,852 - root - INFO - CPU: 17.0% used
+2025-07-23 04:37:22,536 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 04:37:22,537 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 04:37:22,537 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 04:37:22,538 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 04:37:22,541 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 04:37:22,542 - config_manager - INFO - User preferences saved successfully
+2025-07-23 04:37:22,543 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 04:37:22,543 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 04:37:22,543 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 04:37:22,543 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 04:37:22,543 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 04:37:23,022 - root - INFO - Processing media: IMG_3700.JPG with mode: Detect AI-Generated Image
+2025-07-23 04:37:25,295 - root - ERROR - Analysis error: 
+2025-07-23 04:42:57,191 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 04:43:07,491 - root - WARNING - python-magic not available. Install with: pip install python-magic python-magic-bin
+2025-07-23 04:43:08,220 - root - INFO - Memory: 56.6% used
+2025-07-23 04:43:09,226 - root - INFO - CPU: 14.5% used
+2025-07-23 04:43:14,328 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 04:43:14,330 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 04:43:14,332 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 04:43:14,334 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 04:43:14,335 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 04:43:14,335 - config_manager - INFO - User preferences saved successfully
+2025-07-23 04:43:14,336 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 04:43:14,336 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 04:43:14,337 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 04:43:14,337 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 04:43:14,337 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 04:43:16,665 - tensorflow - WARNING - From C:\Users\HP\AppData\Local\Programs\Python\Python310\lib\site-packages\keras\src\backend\common\global_state.py:82: The name tf.reset_default_graph is deprecated. Please use tf.compat.v1.reset_default_graph instead.
+
+2025-07-23 04:43:31,438 - root - INFO - Memory: 62.7% used
+2025-07-23 04:43:32,447 - root - INFO - CPU: 20.4% used
+2025-07-23 04:43:37,221 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 04:43:37,223 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 04:43:37,223 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 04:43:37,224 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 04:43:37,227 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 04:43:37,227 - config_manager - INFO - User preferences saved successfully
+2025-07-23 04:43:37,228 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 04:43:37,229 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 04:43:37,229 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 04:43:37,229 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 04:43:37,229 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 04:43:37,745 - root - INFO - Processing media: IMG_3700.JPG with mode: Detect AI-Generated Image
+2025-07-23 04:45:48,282 - root - INFO - Memory: 64.8% used
+2025-07-23 04:45:49,291 - root - INFO - CPU: 12.0% used
+2025-07-23 04:45:53,810 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 04:45:53,811 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 04:45:53,813 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 04:45:53,814 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 04:45:53,816 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 04:45:53,816 - config_manager - INFO - User preferences saved successfully
+2025-07-23 04:45:53,817 - config_manager - INFO - User preferences saved successfully
+2025-07-23 04:45:53,819 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 04:45:53,819 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 04:45:53,819 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 04:45:53,820 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 04:45:53,820 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 04:45:54,305 - root - INFO - Processing media: IMG_3700.JPG with mode: Detect AI-Generated Image
+2025-07-23 04:48:04,169 - root - INFO - Memory: 67.6% used
+2025-07-23 04:48:05,181 - root - INFO - CPU: 8.5% used
+2025-07-23 04:48:09,662 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 04:48:09,663 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 04:48:09,665 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 04:48:09,666 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 04:48:09,668 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 04:48:09,668 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 04:48:09,669 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 04:48:09,669 - config_manager - INFO - User preferences saved successfully
+2025-07-23 04:48:09,669 - config_manager - INFO - User preferences saved successfully
+2025-07-23 04:48:09,670 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 04:48:09,670 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 04:48:09,670 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 04:48:09,671 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 04:48:09,671 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 04:48:15,604 - root - INFO - Memory: 64.5% used
+2025-07-23 04:48:16,619 - root - INFO - CPU: 15.7% used
+2025-07-23 04:48:21,652 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 04:48:21,655 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 04:48:21,656 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 04:48:21,657 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 04:48:21,658 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 04:48:21,658 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 04:48:21,659 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 04:48:21,660 - config_manager - INFO - User preferences saved successfully
+2025-07-23 04:48:21,660 - config_manager - INFO - User preferences saved successfully
+2025-07-23 04:48:21,661 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 04:48:21,661 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 04:48:21,661 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 04:48:21,661 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 04:48:21,662 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 04:48:21,669 - root - INFO - Processing media: This is not Morgan Freeman  -  A Deepfake Singularity.mp4 with mode: Detect Deepfake Video
+2025-07-23 04:48:50,377 - root - INFO - Memory: 66.3% used
+2025-07-23 04:48:51,392 - root - INFO - CPU: 13.6% used
+2025-07-23 04:48:54,684 - root - INFO - Memory: 67.9% used
+2025-07-23 04:48:55,701 - root - INFO - CPU: 25.4% used
+2025-07-23 04:49:00,129 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 04:49:00,130 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 04:49:00,131 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 04:49:00,133 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 04:49:00,133 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 04:49:00,134 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 04:49:00,134 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 04:49:00,135 - config_manager - INFO - User preferences saved successfully
+2025-07-23 04:49:00,135 - config_manager - INFO - User preferences saved successfully
+2025-07-23 04:49:00,136 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 04:49:00,136 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 04:49:00,136 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 04:49:00,136 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 04:49:00,136 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 04:49:00,144 - root - INFO - Processing media: This is not Morgan Freeman  -  A Deepfake Singularity.mp4 with mode: Detect Deepfake Video
+2025-07-23 04:49:15,380 - root - INFO - Memory: 68.1% used
+2025-07-23 04:49:16,382 - root - INFO - CPU: 13.8% used
+2025-07-23 04:49:20,322 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 04:49:20,323 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 04:49:20,324 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 04:49:20,326 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 04:49:20,327 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 04:49:20,327 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 04:49:20,328 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 04:49:20,328 - config_manager - INFO - User preferences saved successfully
+2025-07-23 04:49:20,330 - config_manager - INFO - User preferences saved successfully
+2025-07-23 04:49:20,330 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 04:49:20,330 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 04:49:20,331 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 04:49:20,331 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 04:49:20,331 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 04:49:20,336 - root - INFO - Processing media: This is not Morgan Freeman  -  A Deepfake Singularity.mp4 with mode: Detect Deepfake Video
+2025-07-23 04:49:25,223 - root - INFO - Memory: 70.2% used
+2025-07-23 04:49:26,232 - root - INFO - CPU: 9.8% used
+2025-07-23 04:49:30,042 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 04:49:30,043 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 04:49:30,043 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 04:49:30,046 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 04:49:30,047 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 04:49:30,047 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 04:49:30,048 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 04:49:30,048 - config_manager - INFO - User preferences saved successfully
+2025-07-23 04:49:30,048 - config_manager - INFO - User preferences saved successfully
+2025-07-23 04:49:30,048 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 04:49:30,048 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 04:49:30,050 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 04:49:30,050 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 04:49:30,050 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 04:49:30,055 - root - INFO - Processing media: This is not Morgan Freeman  -  A Deepfake Singularity.mp4 with mode: Detect Deepfake Video
+2025-07-23 04:49:53,108 - root - INFO - Memory: 70.5% used
+2025-07-23 04:49:54,113 - root - INFO - CPU: 18.8% used
+2025-07-23 04:49:57,991 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 04:49:57,992 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 04:49:57,994 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 04:49:57,996 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 04:49:57,997 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 04:49:57,997 - config_manager - INFO - User preferences saved successfully
+2025-07-23 04:49:57,997 - config_manager - INFO - User preferences saved successfully
+2025-07-23 04:49:57,998 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 04:49:57,998 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 04:49:57,998 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 04:49:57,999 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 04:49:57,999 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 04:50:07,381 - root - INFO - Memory: 72.3% used
+2025-07-23 04:50:08,385 - root - INFO - CPU: 11.0% used
+2025-07-23 04:50:12,371 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 04:50:12,373 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 04:50:12,374 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 04:50:12,374 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 04:50:12,376 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 04:50:12,376 - config_manager - INFO - User preferences saved successfully
+2025-07-23 04:50:12,376 - config_manager - INFO - User preferences saved successfully
+2025-07-23 04:50:12,377 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 04:50:12,377 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 04:50:12,377 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 04:50:12,377 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 04:50:12,377 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 04:50:12,419 - root - INFO - Processing media: ai-generated-8189352_1280.png with mode: Detect AI-Generated Image
+2025-07-23 04:51:07,131 - root - INFO - Memory: 73.4% used
+2025-07-23 04:51:08,138 - root - INFO - CPU: 8.9% used
+2025-07-23 04:51:12,069 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 04:51:12,070 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 04:51:12,071 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 04:51:12,073 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 04:51:12,074 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 04:51:12,074 - config_manager - INFO - User preferences saved successfully
+2025-07-23 04:51:12,074 - config_manager - INFO - User preferences saved successfully
+2025-07-23 04:51:12,075 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 04:51:12,075 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 04:51:12,076 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 04:51:12,076 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 04:51:12,076 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 04:51:12,117 - root - INFO - Processing media: ai-generated-8189352_1280.png with mode: Detect AI-Generated Image
+2025-07-23 04:51:23,990 - root - INFO - Memory: 74.6% used
+2025-07-23 04:51:24,992 - root - INFO - CPU: 12.4% used
+2025-07-23 04:51:28,807 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 04:51:28,808 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 04:51:28,808 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 04:51:28,816 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 04:51:28,818 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 04:51:28,818 - config_manager - INFO - User preferences saved successfully
+2025-07-23 04:51:28,818 - config_manager - INFO - User preferences saved successfully
+2025-07-23 04:51:28,819 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 04:51:28,819 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 04:51:28,819 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 04:51:28,819 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 04:51:28,819 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 04:51:28,859 - root - INFO - Processing media: ai-generated-8189352_1280.png with mode: Detect AI-Generated Image
+2025-07-23 04:52:01,751 - root - INFO - Memory: 75.1% used
+2025-07-23 04:52:02,753 - root - INFO - CPU: 10.9% used
+2025-07-23 04:52:04,147 - root - INFO - Memory: 76.4% used
+2025-07-23 04:52:05,216 - root - INFO - CPU: 21.2% used
+2025-07-23 04:52:05,230 - root - INFO - Memory: 76.6% used
+2025-07-23 04:52:05,569 - root - INFO - Memory: 77.4% used
+2025-07-23 04:52:06,615 - root - INFO - CPU: 22.7% used
+2025-07-23 04:52:06,770 - root - INFO - CPU: 23.6% used
+2025-07-23 04:52:18,118 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 04:52:18,121 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 04:52:18,123 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 04:52:18,125 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 04:52:18,127 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 04:52:18,127 - config_manager - INFO - User preferences saved successfully
+2025-07-23 04:52:18,128 - config_manager - INFO - User preferences saved successfully
+2025-07-23 04:52:18,129 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 04:52:18,129 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 04:52:18,129 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 04:52:18,129 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 04:52:18,129 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 04:52:20,296 - root - INFO - Processing media: IMG_3728.JPG with mode: Detect AI-Generated Image
+2025-07-23 04:54:13,848 - root - INFO - Memory: 71.9% used
+2025-07-23 04:54:14,852 - root - INFO - CPU: 15.5% used
+2025-07-23 04:54:17,665 - root - INFO - Memory: 72.3% used
+2025-07-23 04:54:17,685 - root - INFO - Memory: 72.3% used
+2025-07-23 04:54:18,257 - root - INFO - Memory: 72.8% used
+2025-07-23 04:54:19,184 - root - INFO - CPU: 19.0% used
+2025-07-23 04:54:19,184 - root - INFO - CPU: 19.0% used
+2025-07-23 04:54:19,338 - root - INFO - CPU: 19.7% used
+2025-07-23 04:54:19,353 - root - INFO - Memory: 72.5% used
+2025-07-23 04:54:20,368 - root - INFO - CPU: 14.4% used
+2025-07-23 04:54:36,427 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 04:54:36,428 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 04:54:36,429 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 04:54:36,429 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 04:54:36,430 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 04:54:36,430 - config_manager - INFO - User preferences saved successfully
+2025-07-23 04:54:36,431 - config_manager - INFO - User preferences saved successfully
+2025-07-23 04:54:36,432 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 04:54:36,432 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 04:54:36,432 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 04:54:36,433 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 04:54:36,433 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 04:54:36,439 - root - INFO - Processing media: download (1).jpg with mode: Detect AI-Generated Image

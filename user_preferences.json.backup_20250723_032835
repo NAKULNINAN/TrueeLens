@@ -1,0 +1,13 @@
+{
+  "confidence_threshold": 0.5,
+  "enable_visualization": true,
+  "save_results": false,
+  "detection_mode": "Detect AI-Generated Image",
+  "ui_theme": "light",
+  "show_technical_details": true,
+  "auto_save_reports": false,
+  "preferred_models": {
+    "deepfake_detection": "xception",
+    "ai_image_detection": "efficientnet"
+  }
+}
