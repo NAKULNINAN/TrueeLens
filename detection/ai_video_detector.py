@@ -155,7 +155,11 @@ class AIVideoDetector:
                 if len(good_points) > 5:
                     # Calculate flow vectors
                     flow_vectors = good_points - good_corners
-                    flow_magnitudes = np.sqrt(flow_vectors[:, 0, 0]**2 + flow_vectors[:, 0, 1]**2)
+                    # Handle both 2D and 3D array cases
+                    if flow_vectors.ndim == 3:
+                        flow_magnitudes = np.sqrt(flow_vectors[:, 0, 0]**2 + flow_vectors[:, 0, 1]**2)
+                    else:
+                        flow_magnitudes = np.sqrt(flow_vectors[:, 0]**2 + flow_vectors[:, 1]**2)
                     
                     # Inconsistency is high variance in flow magnitudes
                     if len(flow_magnitudes) > 0:
@@ -242,14 +246,27 @@ class AIVideoDetector:
             frame2 = cv2.cvtColor(frames[i + 1], cv2.COLOR_BGR2GRAY)
             frame3 = cv2.cvtColor(frames[i + 2], cv2.COLOR_BGR2GRAY)
             
-            # Calculate motion vectors
-            flow1 = cv2.calcOpticalFlowPyrLK(frame1, frame2, None, None)
-            flow2 = cv2.calcOpticalFlowPyrLK(frame2, frame3, None, None)
+            # Extract feature points with validation
+            corners1 = cv2.goodFeaturesToTrack(frame1, maxCorners=100, qualityLevel=0.01, minDistance=10)
+            corners2 = cv2.goodFeaturesToTrack(frame2, maxCorners=100, qualityLevel=0.01, minDistance=10)
             
-            if flow1[0] is not None and flow2[0] is not None:
-                # Motion acceleration analysis
-                motion_consistency = self._calculate_motion_consistency(flow1[0], flow2[0])
-                motion_scores.append(motion_consistency)
+            # Skip if no features found
+            if corners1 is None or corners2 is None or len(corners1) < 5 or len(corners2) < 5:
+                continue
+            
+            try:
+                # Calculate motion vectors using optical flow
+                flow1 = cv2.calcOpticalFlowPyrLK(frame1, frame2, corners1, None)
+                flow2 = cv2.calcOpticalFlowPyrLK(frame2, frame3, corners2, None)
+                
+                if flow1[0] is not None and flow2[0] is not None and len(flow1[0]) > 5 and len(flow2[0]) > 5:
+                    # Motion acceleration analysis
+                    motion_consistency = self._calculate_motion_consistency(flow1[0], flow2[0])
+                    motion_scores.append(motion_consistency)
+            except cv2.error as e:
+                # Handle OpenCV errors gracefully
+                self.logger.warning(f"OpenCV error in motion analysis: {e}")
+                continue
         
         return np.mean(motion_scores) if motion_scores else 0.0
     
@@ -349,13 +366,29 @@ class AIVideoDetector:
     
     def _calculate_motion_consistency(self, flow1: np.ndarray, flow2: np.ndarray) -> float:
         """Calculate motion consistency between consecutive flows"""
+        # Ensure we have enough points and matching dimensions
+        min_len = min(len(flow1), len(flow2))
+        if min_len < 5:
+            return 0.5  # Default moderate inconsistency
+            
+        flow1_truncated = flow1[:min_len]
+        flow2_truncated = flow2[:min_len]
+        
         # Calculate acceleration vectors
-        accel = flow2 - flow1
-        accel_magnitude = np.sqrt(accel[:, :, 0]**2 + accel[:, :, 1]**2)
+        accel = flow2_truncated - flow1_truncated
+        
+        # Handle both 2D and 3D array cases for acceleration magnitude
+        if accel.ndim == 3:
+            accel_magnitude = np.sqrt(accel[:, 0, 0]**2 + accel[:, 0, 1]**2)
+        else:
+            accel_magnitude = np.sqrt(accel[:, 0]**2 + accel[:, 1]**2)
         
         # Motion inconsistency is high variance in acceleration
-        motion_inconsistency = np.std(accel_magnitude) / (np.mean(accel_magnitude) + 1e-6)
-        return min(1.0, motion_inconsistency / 5.0)
+        if len(accel_magnitude) > 0:
+            motion_inconsistency = np.std(accel_magnitude) / (np.mean(accel_magnitude) + 1e-6)
+            return min(1.0, motion_inconsistency / 5.0)
+        else:
+            return 0.5
     
     def _analyze_dct_blocks(self, y_channel: np.ndarray) -> float:
         """Analyze DCT coefficients in 8x8 blocks"""

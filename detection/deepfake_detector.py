@@ -190,9 +190,9 @@ class DeepfakeDetector:
         
         if len(frame_results) == 0:
             if failed_face_detection_frames > 0:
-                explanation = f'No faces detected in video for analysis. Failed to detect faces in {failed_face_detection_frames} sampled frames.'
+                explanation = f'No faces detected in video for analysis. Failed to detect faces in {failed_face_detection_frames} sampled frames. This could be due to poor video quality, no faces in the video, or faces that are too small/blurry to detect reliably.'
             else:
-                explanation = 'No faces detected in video for analysis'
+                explanation = 'No faces detected in video for analysis. Please ensure the video contains clear, visible faces.'
                 
             return {
                 'confidence': 0.0,
@@ -200,12 +200,15 @@ class DeepfakeDetector:
                 'explanation': explanation,
                 'processing_time': time.time() - start_time,
                 'model_accuracy': 0.92,
+                'status': 'no_faces_detected',
                 'technical_details': {
                     'total_frames': total_frames,
                     'processed_frames': 0,
                     'faces_detected': 0,
                     'failed_face_detection_frames': failed_face_detection_frames,
-                    'fps': fps
+                    'fps': fps,
+                    'detection_attempted': True,
+                    'robust_detection_used': True
                 }
             }
         

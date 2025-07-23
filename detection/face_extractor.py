@@ -14,8 +14,17 @@ class FaceExtractor:
     def __init__(self, detector_type="mtcnn"):
         self.detector_type = detector_type
         
-        # Always initialize both detectors for robust extraction
-        self.mtcnn = MTCNN(keep_all=True, device='cuda' if torch.cuda.is_available() else 'cpu')
+        # Always initialize both detectors for robust extraction with more sensitive settings
+        self.mtcnn = MTCNN(
+            keep_all=True, 
+            device='cuda' if torch.cuda.is_available() else 'cpu',
+            min_face_size=20,  # Detect smaller faces
+            thresholds=[0.6, 0.7, 0.7],  # More lenient thresholds
+            factor=0.709  # Better scale factor
+        )
+        
+        # Initialize OpenCV face detector as additional fallback
+        self.opencv_face_cascade = cv2.CascadeClassifier(cv2.data.haarcascades + 'haarcascade_frontalface_default.xml')
         
         # Initialize MediaPipe components
         self.mp_face_detection = mp.solutions.face_detection
@@ -79,6 +88,28 @@ class FaceExtractor:
                 if face.size > 0:
                     faces.append((face, (x1, y1, x2, y2)))
         return faces
+    
+    def extract_faces_opencv(self, frame: np.ndarray) -> List[Tuple[np.ndarray, Tuple[int, int, int, int]]]:
+        """Extract faces using OpenCV Haar cascade detector"""
+        gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
+        
+        # Detect faces with more lenient parameters
+        faces_rects = self.opencv_face_cascade.detectMultiScale(
+            gray,
+            scaleFactor=1.1,
+            minNeighbors=3,  # More lenient
+            minSize=(30, 30),  # Smaller minimum size
+            flags=cv2.CASCADE_SCALE_IMAGE
+        )
+        
+        faces = []
+        for (x, y, w, h) in faces_rects:
+            # Extract face region
+            face = frame[y:y+h, x:x+w]
+            if face.size > 0:
+                faces.append((face, (x, y, x+w, y+h)))
+        
+        return faces
 
     def extract_faces(self, frame: np.ndarray) -> List[Tuple[np.ndarray, Tuple[int, int, int, int]]]:
         if self.detector_type == "mtcnn":
@@ -92,8 +123,10 @@ class FaceExtractor:
         This method tries multiple detection strategies in order:
         1. MTCNN on original frame
         2. MediaPipe on original frame
-        3. MTCNN on enhanced frame (histogram equalization)
-        4. MediaPipe on enhanced frame
+        3. OpenCV on original frame
+        4. MTCNN on enhanced frame (histogram equalization)
+        5. MediaPipe on enhanced frame
+        6. OpenCV on enhanced frame
         
         Returns the results from the first successful detection.
         """
@@ -104,6 +137,11 @@ class FaceExtractor:
         
         # Try MediaPipe if MTCNN fails
         faces = self.extract_faces_mediapipe(frame)
+        if len(faces) > 0:
+            return faces
+        
+        # Try OpenCV if MediaPipe fails
+        faces = self.extract_faces_opencv(frame)
         if len(faces) > 0:
             return faces
         
@@ -118,6 +156,12 @@ class FaceExtractor:
         
         # Try MediaPipe on enhanced frame
         faces = self.extract_faces_mediapipe(enhanced_frame)
+        if len(faces) > 0:
+            # Map coordinates back to original frame
+            return [(self._map_face_to_original(face, enhanced_frame, frame), bbox) for face, bbox in faces]
+        
+        # Try OpenCV on enhanced frame
+        faces = self.extract_faces_opencv(enhanced_frame)
         if len(faces) > 0:
             # Map coordinates back to original frame
             return [(self._map_face_to_original(face, enhanced_frame, frame), bbox) for face, bbox in faces]
@@ -196,17 +240,17 @@ class FaceExtractor:
         height, width = face.shape[:2]
         size_score = min(height, width)
         
-        # Quality scores
+        # Quality scores - More lenient thresholds
         quality_metrics = {
             'sharpness': sharpness,
             'brightness': brightness,
             'contrast': contrast,
             'size': size_score,
             'is_high_quality': (
-                sharpness > 100 and
-                50 < brightness < 200 and
-                contrast > 20 and
-                size_score >= 64
+                sharpness > 10 and  # Much more lenient
+                20 < brightness < 250 and  # Wider range
+                contrast > 5 and  # Lower threshold
+                size_score >= 32  # Smaller minimum size
             )
         }
         
