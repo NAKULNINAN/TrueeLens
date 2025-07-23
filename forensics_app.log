@@ -482,3 +482,1022 @@
 2025-07-23 04:54:36,433 - config_manager - INFO - User preferences loaded successfully
 2025-07-23 04:54:36,433 - config_manager - INFO - User preferences loaded successfully
 2025-07-23 04:54:36,439 - root - INFO - Processing media: download (1).jpg with mode: Detect AI-Generated Image
+2025-07-23 05:49:15,743 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 05:53:32,217 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 05:53:42,075 - root - WARNING - python-magic not available. Install with: pip install python-magic python-magic-bin
+2025-07-23 05:53:42,606 - root - INFO - Memory: 73.0% used
+2025-07-23 05:53:43,620 - root - INFO - CPU: 9.3% used
+2025-07-23 05:53:49,073 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 05:53:49,074 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 05:53:49,078 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 05:53:49,079 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 05:53:49,080 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 05:53:49,081 - config_manager - INFO - User preferences saved successfully
+2025-07-23 05:53:49,081 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 05:53:49,082 - config_manager - INFO - User preferences saved successfully
+2025-07-23 05:53:49,083 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 05:53:49,083 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 05:53:49,083 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 05:53:49,083 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 05:53:49,083 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 05:53:51,622 - tensorflow - WARNING - From C:\Users\HP\AppData\Local\Programs\Python\Python310\lib\site-packages\keras\src\backend\common\global_state.py:82: The name tf.reset_default_graph is deprecated. Please use tf.compat.v1.reset_default_graph instead.
+
+2025-07-23 05:54:05,151 - root - INFO - Memory: 76.3% used
+2025-07-23 05:54:06,159 - root - INFO - CPU: 11.9% used
+2025-07-23 05:54:10,994 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 05:54:10,995 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 05:54:10,997 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 05:54:10,998 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 05:54:10,999 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 05:54:11,000 - config_manager - INFO - User preferences saved successfully
+2025-07-23 05:54:11,000 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 05:54:11,000 - config_manager - INFO - User preferences saved successfully
+2025-07-23 05:54:11,001 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 05:54:11,002 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 05:54:11,002 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 05:54:11,002 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 05:54:11,003 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 05:54:11,563 - root - INFO - Processing media: IMG_3700.JPG with mode: Detect AI-Generated Image
+2025-07-23 05:55:43,910 - root - INFO - Memory: 80.4% used
+2025-07-23 05:55:44,502 - root - INFO - Memory: 80.6% used
+2025-07-23 05:55:44,913 - root - INFO - CPU: 13.4% used
+2025-07-23 05:55:45,973 - root - INFO - CPU: 21.3% used
+2025-07-23 05:55:52,268 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 05:55:52,269 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 05:55:52,271 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 05:55:52,272 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 05:55:52,272 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 05:55:52,272 - config_manager - INFO - User preferences saved successfully
+2025-07-23 05:55:52,272 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 05:55:52,273 - config_manager - INFO - User preferences saved successfully
+2025-07-23 05:55:52,273 - config_manager - INFO - User preferences saved successfully
+2025-07-23 05:55:52,273 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 05:55:52,273 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 05:55:52,273 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 05:55:52,273 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 05:55:52,273 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 05:55:52,648 - root - INFO - Processing media: IMG_3700.JPG with mode: Detect AI-Generated Image
+2025-07-23 05:56:34,205 - root - INFO - Memory: 81.1% used
+2025-07-23 05:56:35,221 - root - INFO - CPU: 14.4% used
+2025-07-23 05:56:39,437 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 05:56:39,438 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 05:56:39,439 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 05:56:39,439 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 05:56:39,440 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 05:56:39,441 - config_manager - INFO - User preferences saved successfully
+2025-07-23 05:56:39,441 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 05:56:39,441 - config_manager - INFO - User preferences saved successfully
+2025-07-23 05:56:39,441 - config_manager - INFO - User preferences saved successfully
+2025-07-23 05:56:39,444 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 05:56:39,444 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 05:56:39,444 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 05:56:39,445 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 05:56:39,445 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 05:56:40,093 - root - INFO - Memory: 83.1% used
+2025-07-23 05:56:41,108 - root - INFO - CPU: 6.2% used
+2025-07-23 05:56:44,462 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 05:56:44,463 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 05:56:44,464 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 05:56:44,465 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 05:56:44,465 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 05:56:44,466 - config_manager - INFO - User preferences saved successfully
+2025-07-23 05:56:44,466 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 05:56:44,466 - config_manager - INFO - User preferences saved successfully
+2025-07-23 05:56:44,466 - config_manager - INFO - User preferences saved successfully
+2025-07-23 05:56:44,467 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 05:56:44,467 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 05:56:44,467 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 05:56:44,467 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 05:56:44,468 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 05:56:44,514 - root - INFO - Processing media: ai-generated-8189352_1280.png with mode: Detect AI-Generated Image
+2025-07-23 05:57:06,716 - root - INFO - Memory: 83.9% used
+2025-07-23 05:57:07,724 - root - INFO - CPU: 6.4% used
+2025-07-23 05:57:11,136 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 05:57:11,137 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 05:57:11,137 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 05:57:11,139 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 05:57:11,139 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 05:57:11,139 - config_manager - INFO - User preferences saved successfully
+2025-07-23 05:57:11,139 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 05:57:11,139 - config_manager - INFO - User preferences saved successfully
+2025-07-23 05:57:11,139 - config_manager - INFO - User preferences saved successfully
+2025-07-23 05:57:11,140 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 05:57:11,140 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 05:57:11,140 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 05:57:11,140 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 05:57:11,142 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 05:57:11,181 - root - INFO - Processing media: ai-generated-8189352_1280.png with mode: Detect AI-Generated Image
+2025-07-23 05:57:21,386 - root - INFO - Memory: 86.1% used
+2025-07-23 05:57:22,387 - root - INFO - CPU: 8.0% used
+2025-07-23 05:57:25,921 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 05:57:25,923 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 05:57:25,924 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 05:57:25,925 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 05:57:25,926 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 05:57:25,926 - config_manager - INFO - User preferences saved successfully
+2025-07-23 05:57:25,927 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 05:57:25,927 - config_manager - INFO - User preferences saved successfully
+2025-07-23 05:57:25,927 - config_manager - INFO - User preferences saved successfully
+2025-07-23 05:57:25,930 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 05:57:25,930 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 05:57:25,931 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 05:57:25,931 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 05:57:25,931 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 05:57:31,664 - root - INFO - Memory: 87.3% used
+2025-07-23 05:57:32,670 - root - INFO - CPU: 15.1% used
+2025-07-23 05:57:36,475 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 05:57:36,476 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 05:57:36,478 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 05:57:36,479 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 05:57:36,480 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 05:57:36,480 - config_manager - INFO - User preferences saved successfully
+2025-07-23 05:57:36,480 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 05:57:36,480 - config_manager - INFO - User preferences saved successfully
+2025-07-23 05:57:36,480 - config_manager - INFO - User preferences saved successfully
+2025-07-23 05:57:36,481 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 05:57:36,482 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 05:57:36,483 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 05:57:36,484 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 05:57:36,484 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 05:57:36,490 - root - INFO - Processing media: This is not Morgan Freeman  -  A Deepfake Singularity.mp4 with mode: Detect Deepfake Video
+2025-07-23 05:57:36,678 - detection.deepfake_detector - WARNING - Face processing failed on frame 0, face 0: OpenCV(4.11.0) :-1: error: (-5:Bad argument) in function 'resize'
+> Overload resolution failed:
+>  - src is not a numerical tuple
+>  - Expected Ptr<cv::UMat> for argument 'src'
+
+2025-07-23 05:57:36,753 - detection.deepfake_detector - WARNING - Face processing failed on frame 31, face 0: OpenCV(4.11.0) :-1: error: (-5:Bad argument) in function 'resize'
+> Overload resolution failed:
+>  - src is not a numerical tuple
+>  - Expected Ptr<cv::UMat> for argument 'src'
+
+2025-07-23 05:57:36,822 - detection.deepfake_detector - WARNING - Face processing failed on frame 62, face 0: OpenCV(4.11.0) :-1: error: (-5:Bad argument) in function 'resize'
+> Overload resolution failed:
+>  - src is not a numerical tuple
+>  - Expected Ptr<cv::UMat> for argument 'src'
+
+2025-07-23 05:57:36,890 - detection.deepfake_detector - WARNING - Face processing failed on frame 93, face 0: OpenCV(4.11.0) :-1: error: (-5:Bad argument) in function 'resize'
+> Overload resolution failed:
+>  - src is not a numerical tuple
+>  - Expected Ptr<cv::UMat> for argument 'src'
+
+2025-07-23 05:57:36,971 - detection.deepfake_detector - WARNING - Face processing failed on frame 124, face 0: OpenCV(4.11.0) :-1: error: (-5:Bad argument) in function 'resize'
+> Overload resolution failed:
+>  - src is not a numerical tuple
+>  - Expected Ptr<cv::UMat> for argument 'src'
+
+2025-07-23 05:57:37,073 - detection.deepfake_detector - WARNING - Face processing failed on frame 155, face 0: OpenCV(4.11.0) :-1: error: (-5:Bad argument) in function 'resize'
+> Overload resolution failed:
+>  - src is not a numerical tuple
+>  - Expected Ptr<cv::UMat> for argument 'src'
+
+2025-07-23 05:57:37,149 - detection.deepfake_detector - WARNING - Face processing failed on frame 186, face 0: OpenCV(4.11.0) :-1: error: (-5:Bad argument) in function 'resize'
+> Overload resolution failed:
+>  - src is not a numerical tuple
+>  - Expected Ptr<cv::UMat> for argument 'src'
+
+2025-07-23 05:57:37,222 - detection.deepfake_detector - WARNING - Face processing failed on frame 217, face 0: OpenCV(4.11.0) :-1: error: (-5:Bad argument) in function 'resize'
+> Overload resolution failed:
+>  - src is not a numerical tuple
+>  - Expected Ptr<cv::UMat> for argument 'src'
+
+2025-07-23 05:57:37,292 - detection.deepfake_detector - WARNING - Face processing failed on frame 248, face 0: OpenCV(4.11.0) :-1: error: (-5:Bad argument) in function 'resize'
+> Overload resolution failed:
+>  - src is not a numerical tuple
+>  - Expected Ptr<cv::UMat> for argument 'src'
+
+2025-07-23 05:57:37,367 - detection.deepfake_detector - WARNING - Face processing failed on frame 279, face 0: OpenCV(4.11.0) :-1: error: (-5:Bad argument) in function 'resize'
+> Overload resolution failed:
+>  - src is not a numerical tuple
+>  - Expected Ptr<cv::UMat> for argument 'src'
+
+2025-07-23 05:57:37,439 - detection.deepfake_detector - WARNING - Face processing failed on frame 310, face 0: OpenCV(4.11.0) :-1: error: (-5:Bad argument) in function 'resize'
+> Overload resolution failed:
+>  - src is not a numerical tuple
+>  - Expected Ptr<cv::UMat> for argument 'src'
+
+2025-07-23 05:57:37,513 - detection.deepfake_detector - WARNING - Face processing failed on frame 341, face 0: OpenCV(4.11.0) :-1: error: (-5:Bad argument) in function 'resize'
+> Overload resolution failed:
+>  - src is not a numerical tuple
+>  - Expected Ptr<cv::UMat> for argument 'src'
+
+2025-07-23 05:57:37,583 - detection.deepfake_detector - WARNING - Face processing failed on frame 372, face 0: OpenCV(4.11.0) :-1: error: (-5:Bad argument) in function 'resize'
+> Overload resolution failed:
+>  - src is not a numerical tuple
+>  - Expected Ptr<cv::UMat> for argument 'src'
+
+2025-07-23 05:57:37,650 - detection.deepfake_detector - WARNING - Face processing failed on frame 403, face 0: OpenCV(4.11.0) :-1: error: (-5:Bad argument) in function 'resize'
+> Overload resolution failed:
+>  - src is not a numerical tuple
+>  - Expected Ptr<cv::UMat> for argument 'src'
+
+2025-07-23 05:57:37,714 - detection.deepfake_detector - WARNING - Face processing failed on frame 434, face 0: OpenCV(4.11.0) :-1: error: (-5:Bad argument) in function 'resize'
+> Overload resolution failed:
+>  - src is not a numerical tuple
+>  - Expected Ptr<cv::UMat> for argument 'src'
+
+2025-07-23 05:57:37,783 - detection.deepfake_detector - WARNING - Face processing failed on frame 465, face 0: OpenCV(4.11.0) :-1: error: (-5:Bad argument) in function 'resize'
+> Overload resolution failed:
+>  - src is not a numerical tuple
+>  - Expected Ptr<cv::UMat> for argument 'src'
+
+2025-07-23 05:57:37,849 - detection.deepfake_detector - WARNING - Face processing failed on frame 496, face 0: OpenCV(4.11.0) :-1: error: (-5:Bad argument) in function 'resize'
+> Overload resolution failed:
+>  - src is not a numerical tuple
+>  - Expected Ptr<cv::UMat> for argument 'src'
+
+2025-07-23 05:57:37,916 - detection.deepfake_detector - WARNING - Face processing failed on frame 527, face 0: OpenCV(4.11.0) :-1: error: (-5:Bad argument) in function 'resize'
+> Overload resolution failed:
+>  - src is not a numerical tuple
+>  - Expected Ptr<cv::UMat> for argument 'src'
+
+2025-07-23 05:57:37,978 - detection.deepfake_detector - WARNING - Face processing failed on frame 558, face 0: OpenCV(4.11.0) :-1: error: (-5:Bad argument) in function 'resize'
+> Overload resolution failed:
+>  - src is not a numerical tuple
+>  - Expected Ptr<cv::UMat> for argument 'src'
+
+2025-07-23 05:57:38,041 - detection.deepfake_detector - WARNING - Face processing failed on frame 589, face 0: OpenCV(4.11.0) :-1: error: (-5:Bad argument) in function 'resize'
+> Overload resolution failed:
+>  - src is not a numerical tuple
+>  - Expected Ptr<cv::UMat> for argument 'src'
+
+2025-07-23 05:57:38,110 - detection.deepfake_detector - WARNING - Face processing failed on frame 620, face 0: OpenCV(4.11.0) :-1: error: (-5:Bad argument) in function 'resize'
+> Overload resolution failed:
+>  - src is not a numerical tuple
+>  - Expected Ptr<cv::UMat> for argument 'src'
+
+2025-07-23 05:57:38,187 - detection.deepfake_detector - WARNING - Face processing failed on frame 651, face 0: OpenCV(4.11.0) :-1: error: (-5:Bad argument) in function 'resize'
+> Overload resolution failed:
+>  - src is not a numerical tuple
+>  - Expected Ptr<cv::UMat> for argument 'src'
+
+2025-07-23 05:57:38,257 - detection.deepfake_detector - WARNING - Face processing failed on frame 682, face 0: OpenCV(4.11.0) :-1: error: (-5:Bad argument) in function 'resize'
+> Overload resolution failed:
+>  - src is not a numerical tuple
+>  - Expected Ptr<cv::UMat> for argument 'src'
+
+2025-07-23 05:57:38,338 - detection.deepfake_detector - WARNING - Face processing failed on frame 713, face 0: OpenCV(4.11.0) :-1: error: (-5:Bad argument) in function 'resize'
+> Overload resolution failed:
+>  - src is not a numerical tuple
+>  - Expected Ptr<cv::UMat> for argument 'src'
+
+2025-07-23 05:57:38,405 - detection.deepfake_detector - WARNING - Face processing failed on frame 744, face 0: OpenCV(4.11.0) :-1: error: (-5:Bad argument) in function 'resize'
+> Overload resolution failed:
+>  - src is not a numerical tuple
+>  - Expected Ptr<cv::UMat> for argument 'src'
+
+2025-07-23 05:57:38,478 - detection.deepfake_detector - WARNING - Face processing failed on frame 775, face 0: OpenCV(4.11.0) :-1: error: (-5:Bad argument) in function 'resize'
+> Overload resolution failed:
+>  - src is not a numerical tuple
+>  - Expected Ptr<cv::UMat> for argument 'src'
+
+2025-07-23 05:57:38,550 - detection.deepfake_detector - WARNING - Face processing failed on frame 806, face 0: OpenCV(4.11.0) :-1: error: (-5:Bad argument) in function 'resize'
+> Overload resolution failed:
+>  - src is not a numerical tuple
+>  - Expected Ptr<cv::UMat> for argument 'src'
+
+2025-07-23 05:57:38,628 - detection.deepfake_detector - WARNING - Face processing failed on frame 837, face 0: OpenCV(4.11.0) :-1: error: (-5:Bad argument) in function 'resize'
+> Overload resolution failed:
+>  - src is not a numerical tuple
+>  - Expected Ptr<cv::UMat> for argument 'src'
+
+2025-07-23 05:57:38,707 - detection.deepfake_detector - WARNING - Face processing failed on frame 868, face 0: OpenCV(4.11.0) :-1: error: (-5:Bad argument) in function 'resize'
+> Overload resolution failed:
+>  - src is not a numerical tuple
+>  - Expected Ptr<cv::UMat> for argument 'src'
+
+2025-07-23 05:57:38,782 - detection.deepfake_detector - WARNING - Face processing failed on frame 899, face 0: OpenCV(4.11.0) :-1: error: (-5:Bad argument) in function 'resize'
+> Overload resolution failed:
+>  - src is not a numerical tuple
+>  - Expected Ptr<cv::UMat> for argument 'src'
+
+2025-07-23 05:57:38,895 - detection.deepfake_detector - WARNING - Face processing failed on frame 930, face 0: OpenCV(4.11.0) :-1: error: (-5:Bad argument) in function 'resize'
+> Overload resolution failed:
+>  - src is not a numerical tuple
+>  - Expected Ptr<cv::UMat> for argument 'src'
+
+2025-07-23 05:57:38,994 - detection.deepfake_detector - WARNING - Face processing failed on frame 961, face 0: OpenCV(4.11.0) :-1: error: (-5:Bad argument) in function 'resize'
+> Overload resolution failed:
+>  - src is not a numerical tuple
+>  - Expected Ptr<cv::UMat> for argument 'src'
+
+2025-07-23 05:57:39,071 - detection.deepfake_detector - WARNING - Face processing failed on frame 992, face 0: OpenCV(4.11.0) :-1: error: (-5:Bad argument) in function 'resize'
+> Overload resolution failed:
+>  - src is not a numerical tuple
+>  - Expected Ptr<cv::UMat> for argument 'src'
+
+2025-07-23 05:57:39,147 - detection.deepfake_detector - WARNING - Face processing failed on frame 1023, face 0: OpenCV(4.11.0) :-1: error: (-5:Bad argument) in function 'resize'
+> Overload resolution failed:
+>  - src is not a numerical tuple
+>  - Expected Ptr<cv::UMat> for argument 'src'
+
+2025-07-23 05:57:39,215 - detection.deepfake_detector - WARNING - Face processing failed on frame 1054, face 0: OpenCV(4.11.0) :-1: error: (-5:Bad argument) in function 'resize'
+> Overload resolution failed:
+>  - src is not a numerical tuple
+>  - Expected Ptr<cv::UMat> for argument 'src'
+
+2025-07-23 05:57:39,285 - detection.deepfake_detector - WARNING - Face processing failed on frame 1085, face 0: OpenCV(4.11.0) :-1: error: (-5:Bad argument) in function 'resize'
+> Overload resolution failed:
+>  - src is not a numerical tuple
+>  - Expected Ptr<cv::UMat> for argument 'src'
+
+2025-07-23 05:57:39,358 - detection.deepfake_detector - WARNING - Face processing failed on frame 1116, face 0: OpenCV(4.11.0) :-1: error: (-5:Bad argument) in function 'resize'
+> Overload resolution failed:
+>  - src is not a numerical tuple
+>  - Expected Ptr<cv::UMat> for argument 'src'
+
+2025-07-23 05:57:39,433 - detection.deepfake_detector - WARNING - Face processing failed on frame 1147, face 0: OpenCV(4.11.0) :-1: error: (-5:Bad argument) in function 'resize'
+> Overload resolution failed:
+>  - src is not a numerical tuple
+>  - Expected Ptr<cv::UMat> for argument 'src'
+
+2025-07-23 05:57:39,505 - detection.deepfake_detector - WARNING - Face processing failed on frame 1178, face 0: OpenCV(4.11.0) :-1: error: (-5:Bad argument) in function 'resize'
+> Overload resolution failed:
+>  - src is not a numerical tuple
+>  - Expected Ptr<cv::UMat> for argument 'src'
+
+2025-07-23 05:57:39,541 - root - ERROR - Detection failed for This is not Morgan Freeman  -  A Deepfake Singularity.mp4: 'FaceExtractor' object has no attribute 'face_detection'
+Traceback (most recent call last):
+  File "C:\Users\HP\media_forensics_app\app.py", line 355, in process_media
+    detection_result = self.deepfake_detector.detect(uploaded_file, threshold, enable_viz)
+  File "C:\Users\HP\media_forensics_app\detection\deepfake_detector.py", line 98, in detect
+    return self._analyze_video(tmp_path, threshold, enable_viz, start_time)
+  File "C:\Users\HP\media_forensics_app\detection\deepfake_detector.py", line 132, in _analyze_video
+    faces = self.face_extractor.extract_faces_robust(frame)
+  File "C:\Users\HP\media_forensics_app\detection\face_extractor.py", line 105, in extract_faces_robust
+    faces = self.extract_faces_mediapipe(frame)
+  File "C:\Users\HP\media_forensics_app\detection\face_extractor.py", line 61, in extract_faces_mediapipe
+    results = self.face_detection.process(rgb_frame)
+AttributeError: 'FaceExtractor' object has no attribute 'face_detection'
+2025-07-23 05:57:39,561 - root - ERROR - Analysis error: 'FaceExtractor' object has no attribute 'face_detection'
+2025-07-23 06:04:06,243 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 06:04:21,181 - root - WARNING - python-magic not available. Install with: pip install python-magic python-magic-bin
+2025-07-23 06:04:22,134 - root - INFO - Memory: 73.9% used
+2025-07-23 06:04:23,139 - root - INFO - CPU: 10.4% used
+2025-07-23 06:04:31,268 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 06:04:31,268 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 06:04:31,273 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 06:04:31,274 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 06:04:31,274 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 06:04:31,274 - config_manager - INFO - User preferences saved successfully
+2025-07-23 06:04:31,277 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 06:04:31,277 - config_manager - INFO - User preferences saved successfully
+2025-07-23 06:04:31,277 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 06:04:31,277 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 06:04:31,277 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 06:04:31,277 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 06:04:31,277 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 06:04:35,564 - tensorflow - WARNING - From C:\Users\HP\AppData\Local\Programs\Python\Python310\lib\site-packages\keras\src\backend\common\global_state.py:82: The name tf.reset_default_graph is deprecated. Please use tf.compat.v1.reset_default_graph instead.
+
+2025-07-23 06:04:50,778 - root - INFO - Memory: 78.5% used
+2025-07-23 06:04:51,787 - root - INFO - CPU: 18.1% used
+2025-07-23 06:04:59,361 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 06:04:59,365 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 06:04:59,367 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 06:04:59,369 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 06:04:59,369 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 06:04:59,369 - config_manager - INFO - User preferences saved successfully
+2025-07-23 06:04:59,369 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 06:04:59,369 - config_manager - INFO - User preferences saved successfully
+2025-07-23 06:04:59,369 - config_manager - INFO - User preferences saved successfully
+2025-07-23 06:04:59,373 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 06:04:59,373 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 06:04:59,373 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 06:04:59,373 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 06:04:59,373 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 06:05:08,454 - root - INFO - Memory: 80.6% used
+2025-07-23 06:05:09,461 - root - INFO - CPU: 19.9% used
+2025-07-23 06:05:13,981 - root - INFO - Memory: 83.4% used
+2025-07-23 06:05:15,569 - root - INFO - CPU: 29.7% used
+2025-07-23 06:05:21,579 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 06:05:21,581 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 06:05:21,582 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 06:05:21,583 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 06:05:21,584 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 06:05:21,585 - config_manager - INFO - User preferences saved successfully
+2025-07-23 06:05:21,585 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 06:05:21,586 - config_manager - INFO - User preferences saved successfully
+2025-07-23 06:05:21,586 - config_manager - INFO - User preferences saved successfully
+2025-07-23 06:05:21,587 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 06:05:21,588 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 06:05:21,588 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 06:05:21,589 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 06:05:21,589 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 06:05:21,597 - root - INFO - Processing media: This is not Morgan Freeman  -  A Deepfake Singularity.mp4 with mode: Detect Deepfake Video
+2025-07-23 06:05:21,724 - detection.deepfake_detector - WARNING - Face processing failed on frame 0, face 0: OpenCV(4.11.0) :-1: error: (-5:Bad argument) in function 'resize'
+> Overload resolution failed:
+>  - src is not a numerical tuple
+>  - Expected Ptr<cv::UMat> for argument 'src'
+
+2025-07-23 06:05:21,818 - detection.deepfake_detector - WARNING - Face processing failed on frame 31, face 0: OpenCV(4.11.0) :-1: error: (-5:Bad argument) in function 'resize'
+> Overload resolution failed:
+>  - src is not a numerical tuple
+>  - Expected Ptr<cv::UMat> for argument 'src'
+
+2025-07-23 06:05:21,928 - detection.deepfake_detector - WARNING - Face processing failed on frame 62, face 0: OpenCV(4.11.0) :-1: error: (-5:Bad argument) in function 'resize'
+> Overload resolution failed:
+>  - src is not a numerical tuple
+>  - Expected Ptr<cv::UMat> for argument 'src'
+
+2025-07-23 06:05:22,012 - detection.deepfake_detector - WARNING - Face processing failed on frame 93, face 0: OpenCV(4.11.0) :-1: error: (-5:Bad argument) in function 'resize'
+> Overload resolution failed:
+>  - src is not a numerical tuple
+>  - Expected Ptr<cv::UMat> for argument 'src'
+
+2025-07-23 06:05:22,097 - detection.deepfake_detector - WARNING - Face processing failed on frame 124, face 0: OpenCV(4.11.0) :-1: error: (-5:Bad argument) in function 'resize'
+> Overload resolution failed:
+>  - src is not a numerical tuple
+>  - Expected Ptr<cv::UMat> for argument 'src'
+
+2025-07-23 06:05:22,184 - detection.deepfake_detector - WARNING - Face processing failed on frame 155, face 0: OpenCV(4.11.0) :-1: error: (-5:Bad argument) in function 'resize'
+> Overload resolution failed:
+>  - src is not a numerical tuple
+>  - Expected Ptr<cv::UMat> for argument 'src'
+
+2025-07-23 06:05:22,273 - detection.deepfake_detector - WARNING - Face processing failed on frame 186, face 0: OpenCV(4.11.0) :-1: error: (-5:Bad argument) in function 'resize'
+> Overload resolution failed:
+>  - src is not a numerical tuple
+>  - Expected Ptr<cv::UMat> for argument 'src'
+
+2025-07-23 06:05:22,350 - detection.deepfake_detector - WARNING - Face processing failed on frame 217, face 0: OpenCV(4.11.0) :-1: error: (-5:Bad argument) in function 'resize'
+> Overload resolution failed:
+>  - src is not a numerical tuple
+>  - Expected Ptr<cv::UMat> for argument 'src'
+
+2025-07-23 06:05:22,450 - detection.deepfake_detector - WARNING - Face processing failed on frame 248, face 0: OpenCV(4.11.0) :-1: error: (-5:Bad argument) in function 'resize'
+> Overload resolution failed:
+>  - src is not a numerical tuple
+>  - Expected Ptr<cv::UMat> for argument 'src'
+
+2025-07-23 06:05:22,550 - detection.deepfake_detector - WARNING - Face processing failed on frame 279, face 0: OpenCV(4.11.0) :-1: error: (-5:Bad argument) in function 'resize'
+> Overload resolution failed:
+>  - src is not a numerical tuple
+>  - Expected Ptr<cv::UMat> for argument 'src'
+
+2025-07-23 06:05:22,640 - detection.deepfake_detector - WARNING - Face processing failed on frame 310, face 0: OpenCV(4.11.0) :-1: error: (-5:Bad argument) in function 'resize'
+> Overload resolution failed:
+>  - src is not a numerical tuple
+>  - Expected Ptr<cv::UMat> for argument 'src'
+
+2025-07-23 06:05:22,722 - detection.deepfake_detector - WARNING - Face processing failed on frame 341, face 0: OpenCV(4.11.0) :-1: error: (-5:Bad argument) in function 'resize'
+> Overload resolution failed:
+>  - src is not a numerical tuple
+>  - Expected Ptr<cv::UMat> for argument 'src'
+
+2025-07-23 06:05:22,804 - detection.deepfake_detector - WARNING - Face processing failed on frame 372, face 0: OpenCV(4.11.0) :-1: error: (-5:Bad argument) in function 'resize'
+> Overload resolution failed:
+>  - src is not a numerical tuple
+>  - Expected Ptr<cv::UMat> for argument 'src'
+
+2025-07-23 06:05:22,882 - detection.deepfake_detector - WARNING - Face processing failed on frame 403, face 0: OpenCV(4.11.0) :-1: error: (-5:Bad argument) in function 'resize'
+> Overload resolution failed:
+>  - src is not a numerical tuple
+>  - Expected Ptr<cv::UMat> for argument 'src'
+
+2025-07-23 06:05:22,960 - detection.deepfake_detector - WARNING - Face processing failed on frame 434, face 0: OpenCV(4.11.0) :-1: error: (-5:Bad argument) in function 'resize'
+> Overload resolution failed:
+>  - src is not a numerical tuple
+>  - Expected Ptr<cv::UMat> for argument 'src'
+
+2025-07-23 06:05:23,057 - detection.deepfake_detector - WARNING - Face processing failed on frame 465, face 0: OpenCV(4.11.0) :-1: error: (-5:Bad argument) in function 'resize'
+> Overload resolution failed:
+>  - src is not a numerical tuple
+>  - Expected Ptr<cv::UMat> for argument 'src'
+
+2025-07-23 06:05:23,134 - detection.deepfake_detector - WARNING - Face processing failed on frame 496, face 0: OpenCV(4.11.0) :-1: error: (-5:Bad argument) in function 'resize'
+> Overload resolution failed:
+>  - src is not a numerical tuple
+>  - Expected Ptr<cv::UMat> for argument 'src'
+
+2025-07-23 06:05:23,219 - detection.deepfake_detector - WARNING - Face processing failed on frame 527, face 0: OpenCV(4.11.0) :-1: error: (-5:Bad argument) in function 'resize'
+> Overload resolution failed:
+>  - src is not a numerical tuple
+>  - Expected Ptr<cv::UMat> for argument 'src'
+
+2025-07-23 06:05:23,301 - detection.deepfake_detector - WARNING - Face processing failed on frame 558, face 0: OpenCV(4.11.0) :-1: error: (-5:Bad argument) in function 'resize'
+> Overload resolution failed:
+>  - src is not a numerical tuple
+>  - Expected Ptr<cv::UMat> for argument 'src'
+
+2025-07-23 06:05:23,379 - detection.deepfake_detector - WARNING - Face processing failed on frame 589, face 0: OpenCV(4.11.0) :-1: error: (-5:Bad argument) in function 'resize'
+> Overload resolution failed:
+>  - src is not a numerical tuple
+>  - Expected Ptr<cv::UMat> for argument 'src'
+
+2025-07-23 06:05:23,462 - detection.deepfake_detector - WARNING - Face processing failed on frame 620, face 0: OpenCV(4.11.0) :-1: error: (-5:Bad argument) in function 'resize'
+> Overload resolution failed:
+>  - src is not a numerical tuple
+>  - Expected Ptr<cv::UMat> for argument 'src'
+
+2025-07-23 06:05:23,576 - detection.deepfake_detector - WARNING - Face processing failed on frame 651, face 0: OpenCV(4.11.0) :-1: error: (-5:Bad argument) in function 'resize'
+> Overload resolution failed:
+>  - src is not a numerical tuple
+>  - Expected Ptr<cv::UMat> for argument 'src'
+
+2025-07-23 06:05:23,664 - detection.deepfake_detector - WARNING - Face processing failed on frame 682, face 0: OpenCV(4.11.0) :-1: error: (-5:Bad argument) in function 'resize'
+> Overload resolution failed:
+>  - src is not a numerical tuple
+>  - Expected Ptr<cv::UMat> for argument 'src'
+
+2025-07-23 06:05:23,751 - detection.deepfake_detector - WARNING - Face processing failed on frame 713, face 0: OpenCV(4.11.0) :-1: error: (-5:Bad argument) in function 'resize'
+> Overload resolution failed:
+>  - src is not a numerical tuple
+>  - Expected Ptr<cv::UMat> for argument 'src'
+
+2025-07-23 06:05:23,831 - detection.deepfake_detector - WARNING - Face processing failed on frame 744, face 0: OpenCV(4.11.0) :-1: error: (-5:Bad argument) in function 'resize'
+> Overload resolution failed:
+>  - src is not a numerical tuple
+>  - Expected Ptr<cv::UMat> for argument 'src'
+
+2025-07-23 06:05:23,914 - detection.deepfake_detector - WARNING - Face processing failed on frame 775, face 0: OpenCV(4.11.0) :-1: error: (-5:Bad argument) in function 'resize'
+> Overload resolution failed:
+>  - src is not a numerical tuple
+>  - Expected Ptr<cv::UMat> for argument 'src'
+
+2025-07-23 06:05:23,997 - detection.deepfake_detector - WARNING - Face processing failed on frame 806, face 0: OpenCV(4.11.0) :-1: error: (-5:Bad argument) in function 'resize'
+> Overload resolution failed:
+>  - src is not a numerical tuple
+>  - Expected Ptr<cv::UMat> for argument 'src'
+
+2025-07-23 06:05:24,080 - detection.deepfake_detector - WARNING - Face processing failed on frame 837, face 0: OpenCV(4.11.0) :-1: error: (-5:Bad argument) in function 'resize'
+> Overload resolution failed:
+>  - src is not a numerical tuple
+>  - Expected Ptr<cv::UMat> for argument 'src'
+
+2025-07-23 06:05:24,179 - detection.deepfake_detector - WARNING - Face processing failed on frame 868, face 0: OpenCV(4.11.0) :-1: error: (-5:Bad argument) in function 'resize'
+> Overload resolution failed:
+>  - src is not a numerical tuple
+>  - Expected Ptr<cv::UMat> for argument 'src'
+
+2025-07-23 06:05:24,254 - detection.deepfake_detector - WARNING - Face processing failed on frame 899, face 0: OpenCV(4.11.0) :-1: error: (-5:Bad argument) in function 'resize'
+> Overload resolution failed:
+>  - src is not a numerical tuple
+>  - Expected Ptr<cv::UMat> for argument 'src'
+
+2025-07-23 06:05:24,326 - detection.deepfake_detector - WARNING - Face processing failed on frame 930, face 0: OpenCV(4.11.0) :-1: error: (-5:Bad argument) in function 'resize'
+> Overload resolution failed:
+>  - src is not a numerical tuple
+>  - Expected Ptr<cv::UMat> for argument 'src'
+
+2025-07-23 06:05:24,403 - detection.deepfake_detector - WARNING - Face processing failed on frame 961, face 0: OpenCV(4.11.0) :-1: error: (-5:Bad argument) in function 'resize'
+> Overload resolution failed:
+>  - src is not a numerical tuple
+>  - Expected Ptr<cv::UMat> for argument 'src'
+
+2025-07-23 06:05:24,480 - detection.deepfake_detector - WARNING - Face processing failed on frame 992, face 0: OpenCV(4.11.0) :-1: error: (-5:Bad argument) in function 'resize'
+> Overload resolution failed:
+>  - src is not a numerical tuple
+>  - Expected Ptr<cv::UMat> for argument 'src'
+
+2025-07-23 06:05:24,558 - detection.deepfake_detector - WARNING - Face processing failed on frame 1023, face 0: OpenCV(4.11.0) :-1: error: (-5:Bad argument) in function 'resize'
+> Overload resolution failed:
+>  - src is not a numerical tuple
+>  - Expected Ptr<cv::UMat> for argument 'src'
+
+2025-07-23 06:05:24,648 - detection.deepfake_detector - WARNING - Face processing failed on frame 1054, face 0: OpenCV(4.11.0) :-1: error: (-5:Bad argument) in function 'resize'
+> Overload resolution failed:
+>  - src is not a numerical tuple
+>  - Expected Ptr<cv::UMat> for argument 'src'
+
+2025-07-23 06:05:24,729 - detection.deepfake_detector - WARNING - Face processing failed on frame 1085, face 0: OpenCV(4.11.0) :-1: error: (-5:Bad argument) in function 'resize'
+> Overload resolution failed:
+>  - src is not a numerical tuple
+>  - Expected Ptr<cv::UMat> for argument 'src'
+
+2025-07-23 06:05:24,796 - detection.deepfake_detector - WARNING - Face processing failed on frame 1116, face 0: OpenCV(4.11.0) :-1: error: (-5:Bad argument) in function 'resize'
+> Overload resolution failed:
+>  - src is not a numerical tuple
+>  - Expected Ptr<cv::UMat> for argument 'src'
+
+2025-07-23 06:05:24,876 - detection.deepfake_detector - WARNING - Face processing failed on frame 1147, face 0: OpenCV(4.11.0) :-1: error: (-5:Bad argument) in function 'resize'
+> Overload resolution failed:
+>  - src is not a numerical tuple
+>  - Expected Ptr<cv::UMat> for argument 'src'
+
+2025-07-23 06:05:24,959 - detection.deepfake_detector - WARNING - Face processing failed on frame 1178, face 0: OpenCV(4.11.0) :-1: error: (-5:Bad argument) in function 'resize'
+> Overload resolution failed:
+>  - src is not a numerical tuple
+>  - Expected Ptr<cv::UMat> for argument 'src'
+
+2025-07-23 06:05:25,309 - detection.deepfake_detector - WARNING - Face processing failed on frame 1240, face 0: OpenCV(4.11.0) :-1: error: (-5:Bad argument) in function 'resize'
+> Overload resolution failed:
+>  - src is not a numerical tuple
+>  - Expected Ptr<cv::UMat> for argument 'src'
+
+2025-07-23 06:05:25,413 - detection.deepfake_detector - WARNING - Face processing failed on frame 1271, face 0: OpenCV(4.11.0) :-1: error: (-5:Bad argument) in function 'resize'
+> Overload resolution failed:
+>  - src is not a numerical tuple
+>  - Expected Ptr<cv::UMat> for argument 'src'
+
+2025-07-23 06:05:45,105 - root - INFO - Memory: 83.6% used
+2025-07-23 06:05:46,113 - root - INFO - CPU: 14.4% used
+2025-07-23 06:05:50,698 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 06:05:50,700 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 06:05:50,701 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 06:05:50,702 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 06:05:50,703 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 06:05:50,703 - config_manager - INFO - User preferences saved successfully
+2025-07-23 06:05:50,703 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 06:05:50,704 - config_manager - INFO - User preferences saved successfully
+2025-07-23 06:05:50,704 - config_manager - INFO - User preferences saved successfully
+2025-07-23 06:05:50,705 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 06:05:50,705 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 06:05:50,705 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 06:05:50,706 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 06:05:50,706 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 06:05:50,711 - root - INFO - Processing media: This is not Morgan Freeman  -  A Deepfake Singularity.mp4 with mode: Detect AI-Generated Video
+2025-07-23 06:05:51,089 - root - ERROR - Detection failed for This is not Morgan Freeman  -  A Deepfake Singularity.mp4: OpenCV(4.11.0) D:\a\opencv-python\opencv-python\opencv\modules\video\src\lkpyramid.cpp:1281: error: (-215:Assertion failed) (npoints = prevPtsMat.checkVector(2, CV_32F, true)) >= 0 in function 'cv::`anonymous-namespace'::SparsePyrLKOpticalFlowImpl::calc'
+Traceback (most recent call last):
+  File "C:\Users\HP\media_forensics_app\app.py", line 346, in process_media
+    detection_result = self.ai_video_detector.detect(uploaded_file, threshold, enable_viz)
+  File "C:\Users\HP\media_forensics_app\detection\ai_video_detector.py", line 55, in detect
+    return self._analyze_video(tmp_path, threshold, enable_viz, start_time)
+  File "C:\Users\HP\media_forensics_app\detection\ai_video_detector.py", line 95, in _analyze_video
+    temporal_score = self._analyze_temporal_consistency(frames)
+  File "C:\Users\HP\media_forensics_app\detection\ai_video_detector.py", line 142, in _analyze_temporal_consistency
+    flow = cv2.calcOpticalFlowPyrLK(frame1, frame2, None, None)[0]
+cv2.error: OpenCV(4.11.0) D:\a\opencv-python\opencv-python\opencv\modules\video\src\lkpyramid.cpp:1281: error: (-215:Assertion failed) (npoints = prevPtsMat.checkVector(2, CV_32F, true)) >= 0 in function 'cv::`anonymous-namespace'::SparsePyrLKOpticalFlowImpl::calc'
+
+2025-07-23 06:05:51,090 - root - ERROR - Analysis error: OpenCV(4.11.0) D:\a\opencv-python\opencv-python\opencv\modules\video\src\lkpyramid.cpp:1281: error: (-215:Assertion failed) (npoints = prevPtsMat.checkVector(2, CV_32F, true)) >= 0 in function 'cv::`anonymous-namespace'::SparsePyrLKOpticalFlowImpl::calc'
+
+2025-07-23 06:20:40,343 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 06:20:53,033 - root - WARNING - python-magic not available. Install with: pip install python-magic python-magic-bin
+2025-07-23 06:20:53,817 - root - INFO - Memory: 69.4% used
+2025-07-23 06:20:54,824 - root - INFO - CPU: 20.0% used
+2025-07-23 06:21:00,289 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 06:21:00,289 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 06:21:00,295 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 06:21:00,295 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 06:21:00,295 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 06:21:00,295 - config_manager - INFO - User preferences saved successfully
+2025-07-23 06:21:00,295 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 06:21:00,295 - config_manager - INFO - User preferences saved successfully
+2025-07-23 06:21:00,299 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 06:21:00,299 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 06:21:00,299 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 06:21:00,299 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 06:21:00,299 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 06:21:02,764 - tensorflow - WARNING - From C:\Users\HP\AppData\Local\Programs\Python\Python310\lib\site-packages\keras\src\backend\common\global_state.py:82: The name tf.reset_default_graph is deprecated. Please use tf.compat.v1.reset_default_graph instead.
+
+2025-07-23 06:21:19,071 - root - INFO - Memory: 74.1% used
+2025-07-23 06:21:20,074 - root - INFO - CPU: 24.7% used
+2025-07-23 06:21:23,998 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 06:21:24,002 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 06:21:24,002 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 06:21:24,002 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 06:21:24,002 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 06:21:24,006 - config_manager - INFO - User preferences saved successfully
+2025-07-23 06:21:24,006 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 06:21:24,006 - config_manager - INFO - User preferences saved successfully
+2025-07-23 06:21:24,006 - config_manager - INFO - User preferences saved successfully
+2025-07-23 06:21:24,010 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 06:21:24,010 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 06:21:24,010 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 06:21:24,010 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 06:21:24,010 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 06:21:30,392 - root - INFO - Memory: 76.2% used
+2025-07-23 06:21:31,410 - root - INFO - CPU: 17.6% used
+2025-07-23 06:21:34,990 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 06:21:34,995 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 06:21:34,995 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 06:21:34,995 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 06:21:34,999 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 06:21:34,999 - config_manager - INFO - User preferences saved successfully
+2025-07-23 06:21:34,999 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 06:21:34,999 - config_manager - INFO - User preferences saved successfully
+2025-07-23 06:21:34,999 - config_manager - INFO - User preferences saved successfully
+2025-07-23 06:21:34,999 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 06:21:34,999 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 06:21:34,999 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 06:21:34,999 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 06:21:34,999 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 06:21:35,011 - root - INFO - Processing media: This is not Morgan Freeman  -  A Deepfake Singularity.mp4 with mode: Detect AI-Generated Video
+2025-07-23 06:21:35,409 - root - ERROR - Detection failed for This is not Morgan Freeman  -  A Deepfake Singularity.mp4: OpenCV(4.11.0) D:\a\opencv-python\opencv-python\opencv\modules\video\src\lkpyramid.cpp:1281: error: (-215:Assertion failed) (npoints = prevPtsMat.checkVector(2, CV_32F, true)) >= 0 in function 'cv::`anonymous-namespace'::SparsePyrLKOpticalFlowImpl::calc'
+Traceback (most recent call last):
+  File "C:\Users\HP\media_forensics_app\app.py", line 346, in process_media
+    detection_result = self.ai_video_detector.detect(uploaded_file, threshold, enable_viz)
+  File "C:\Users\HP\media_forensics_app\detection\ai_video_detector.py", line 55, in detect
+    return self._analyze_video(tmp_path, threshold, enable_viz, start_time)
+  File "C:\Users\HP\media_forensics_app\detection\ai_video_detector.py", line 95, in _analyze_video
+    temporal_score = self._analyze_temporal_consistency(frames)
+  File "C:\Users\HP\media_forensics_app\detection\ai_video_detector.py", line 142, in _analyze_temporal_consistency
+    flow = cv2.calcOpticalFlowPyrLK(frame1, frame2, None, None)[0]
+cv2.error: OpenCV(4.11.0) D:\a\opencv-python\opencv-python\opencv\modules\video\src\lkpyramid.cpp:1281: error: (-215:Assertion failed) (npoints = prevPtsMat.checkVector(2, CV_32F, true)) >= 0 in function 'cv::`anonymous-namespace'::SparsePyrLKOpticalFlowImpl::calc'
+
+2025-07-23 06:21:35,413 - root - ERROR - Analysis error: OpenCV(4.11.0) D:\a\opencv-python\opencv-python\opencv\modules\video\src\lkpyramid.cpp:1281: error: (-215:Assertion failed) (npoints = prevPtsMat.checkVector(2, CV_32F, true)) >= 0 in function 'cv::`anonymous-namespace'::SparsePyrLKOpticalFlowImpl::calc'
+
+2025-07-23 06:25:07,190 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 06:25:19,983 - root - WARNING - python-magic not available. Install with: pip install python-magic python-magic-bin
+2025-07-23 06:25:20,808 - root - INFO - Memory: 70.5% used
+2025-07-23 06:25:21,821 - root - INFO - CPU: 20.1% used
+2025-07-23 06:25:30,586 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 06:25:30,591 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 06:25:30,594 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 06:25:30,594 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 06:25:30,599 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 06:25:30,599 - config_manager - INFO - User preferences saved successfully
+2025-07-23 06:25:30,599 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 06:25:30,599 - config_manager - INFO - User preferences saved successfully
+2025-07-23 06:25:30,605 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 06:25:30,605 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 06:25:30,605 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 06:25:30,605 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 06:25:30,605 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 06:25:35,158 - tensorflow - WARNING - From C:\Users\HP\AppData\Local\Programs\Python\Python310\lib\site-packages\keras\src\backend\common\global_state.py:82: The name tf.reset_default_graph is deprecated. Please use tf.compat.v1.reset_default_graph instead.
+
+2025-07-23 06:25:46,180 - root - INFO - Memory: 72.4% used
+2025-07-23 06:25:47,189 - root - INFO - CPU: 22.4% used
+2025-07-23 06:25:56,230 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 06:25:56,230 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 06:25:56,233 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 06:25:56,234 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 06:25:56,237 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 06:25:56,237 - config_manager - INFO - User preferences saved successfully
+2025-07-23 06:25:56,237 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 06:25:56,237 - config_manager - INFO - User preferences saved successfully
+2025-07-23 06:25:56,239 - config_manager - INFO - User preferences saved successfully
+2025-07-23 06:25:56,239 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 06:25:56,239 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 06:25:56,243 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 06:25:56,243 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 06:25:56,243 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 06:26:01,148 - root - INFO - Memory: 74.5% used
+2025-07-23 06:26:02,164 - root - INFO - CPU: 19.4% used
+2025-07-23 06:26:09,940 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 06:26:09,944 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 06:26:09,944 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 06:26:09,946 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 06:26:09,948 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 06:26:09,948 - config_manager - INFO - User preferences saved successfully
+2025-07-23 06:26:09,948 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 06:26:09,948 - config_manager - INFO - User preferences saved successfully
+2025-07-23 06:26:09,948 - config_manager - INFO - User preferences saved successfully
+2025-07-23 06:26:09,952 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 06:26:09,952 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 06:26:09,952 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 06:26:09,955 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 06:26:09,955 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 06:26:10,088 - root - INFO - Processing media: ai-generated-8189352_1280.png with mode: Detect Duplicate Image/Video
+2025-07-23 06:26:30,618 - root - INFO - Memory: 76.7% used
+2025-07-23 06:26:31,631 - root - INFO - CPU: 14.8% used
+2025-07-23 06:26:39,036 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 06:26:39,036 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 06:26:39,044 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 06:26:39,046 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 06:26:39,046 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 06:26:39,048 - config_manager - INFO - User preferences saved successfully
+2025-07-23 06:26:39,048 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 06:26:39,048 - config_manager - INFO - User preferences saved successfully
+2025-07-23 06:26:39,053 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 06:26:39,053 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 06:26:39,053 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 06:26:39,053 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 06:26:39,053 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 06:26:39,135 - root - INFO - Processing media: ai-generated-8189352_1280.png with mode: Detect AI-Generated Image
+2025-07-23 06:27:02,410 - root - INFO - Memory: 78.5% used
+2025-07-23 06:27:03,427 - root - INFO - CPU: 18.1% used
+2025-07-23 06:27:05,944 - root - INFO - Memory: 79.5% used
+2025-07-23 06:27:07,795 - root - INFO - CPU: 23.7% used
+2025-07-23 06:27:19,630 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 06:27:19,636 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 06:27:19,636 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 06:27:19,641 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 06:27:19,641 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 06:27:19,641 - config_manager - INFO - User preferences saved successfully
+2025-07-23 06:27:19,641 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 06:27:19,643 - config_manager - INFO - User preferences saved successfully
+2025-07-23 06:27:19,643 - config_manager - INFO - User preferences saved successfully
+2025-07-23 06:27:19,645 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 06:27:19,645 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 06:27:19,645 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 06:27:19,645 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 06:27:19,645 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 06:27:31,605 - root - INFO - Memory: 81.2% used
+2025-07-23 06:27:32,608 - root - INFO - CPU: 23.0% used
+2025-07-23 06:27:40,229 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 06:27:40,229 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 06:27:40,229 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 06:27:40,229 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 06:27:40,229 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 06:27:40,229 - config_manager - INFO - User preferences saved successfully
+2025-07-23 06:27:40,236 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 06:27:40,236 - config_manager - INFO - User preferences saved successfully
+2025-07-23 06:27:40,236 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 06:27:40,236 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 06:27:40,236 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 06:27:40,236 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 06:27:40,240 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 06:27:51,338 - root - INFO - Memory: 84.8% used
+2025-07-23 06:27:52,342 - root - INFO - CPU: 18.5% used
+2025-07-23 06:28:00,372 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 06:28:00,376 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 06:28:00,378 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 06:28:00,378 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 06:28:00,381 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 06:28:00,381 - config_manager - INFO - User preferences saved successfully
+2025-07-23 06:28:00,381 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 06:28:00,381 - config_manager - INFO - User preferences saved successfully
+2025-07-23 06:28:00,385 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 06:28:00,385 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 06:28:00,385 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 06:28:00,385 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 06:28:00,385 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 06:28:01,349 - root - INFO - Processing media: IMG_3700.JPG with mode: Detect AI-Generated Image
+2025-07-23 06:29:12,614 - root - INFO - Memory: 80.4% used
+2025-07-23 06:29:13,625 - root - INFO - CPU: 20.2% used
+2025-07-23 06:29:13,753 - root - INFO - Memory: 80.8% used
+2025-07-23 06:29:16,327 - root - INFO - CPU: 22.9% used
+2025-07-23 06:29:29,858 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 06:29:29,858 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 06:29:29,858 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 06:29:29,864 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 06:29:29,866 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 06:29:29,866 - config_manager - INFO - User preferences saved successfully
+2025-07-23 06:29:29,866 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 06:29:29,868 - config_manager - INFO - User preferences saved successfully
+2025-07-23 06:29:29,868 - config_manager - INFO - User preferences saved successfully
+2025-07-23 06:29:29,874 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 06:29:29,874 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 06:29:29,874 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 06:29:29,874 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 06:29:29,874 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 06:29:30,775 - root - INFO - Processing media: IMG_3700.JPG with mode: Detect AI-Generated Image
+2025-07-23 06:39:13,551 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 06:39:32,065 - root - WARNING - python-magic not available. Install with: pip install python-magic python-magic-bin
+2025-07-23 06:39:33,097 - root - INFO - Memory: 66.3% used
+2025-07-23 06:39:34,112 - root - INFO - CPU: 17.2% used
+2025-07-23 06:39:42,485 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 06:39:42,489 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 06:39:42,489 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 06:39:42,493 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 06:39:42,495 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 06:39:42,497 - config_manager - INFO - User preferences saved successfully
+2025-07-23 06:39:42,497 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 06:39:42,497 - config_manager - INFO - User preferences saved successfully
+2025-07-23 06:39:42,497 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 06:39:42,497 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 06:39:42,502 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 06:39:42,502 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 06:39:42,502 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 06:39:46,970 - tensorflow - WARNING - From C:\Users\HP\AppData\Local\Programs\Python\Python310\lib\site-packages\keras\src\backend\common\global_state.py:82: The name tf.reset_default_graph is deprecated. Please use tf.compat.v1.reset_default_graph instead.
+
+2025-07-23 06:40:01,362 - root - INFO - Memory: 70.4% used
+2025-07-23 06:40:02,366 - root - INFO - CPU: 18.1% used
+2025-07-23 06:40:09,831 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 06:40:09,836 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 06:40:09,838 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 06:40:09,838 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 06:40:09,840 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 06:40:09,840 - config_manager - INFO - User preferences saved successfully
+2025-07-23 06:40:09,840 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 06:40:09,840 - config_manager - INFO - User preferences saved successfully
+2025-07-23 06:40:09,845 - config_manager - INFO - User preferences saved successfully
+2025-07-23 06:40:09,845 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 06:40:09,845 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 06:40:09,845 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 06:40:09,845 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 06:40:09,845 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 06:40:14,937 - root - INFO - Memory: 72.9% used
+2025-07-23 06:40:15,942 - root - INFO - CPU: 17.4% used
+2025-07-23 06:40:23,476 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 06:40:23,481 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 06:40:23,483 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 06:40:23,487 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 06:40:23,488 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 06:40:23,488 - config_manager - INFO - User preferences saved successfully
+2025-07-23 06:40:23,488 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 06:40:23,488 - config_manager - INFO - User preferences saved successfully
+2025-07-23 06:40:23,488 - config_manager - INFO - User preferences saved successfully
+2025-07-23 06:40:23,492 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 06:40:23,492 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 06:40:23,492 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 06:40:23,495 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 06:40:23,495 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 06:40:23,511 - root - INFO - Processing media: This is not Morgan Freeman  -  A Deepfake Singularity.mp4 with mode: Detect AI-Generated Video
+2025-07-23 06:40:24,268 - root - ERROR - Detection failed for This is not Morgan Freeman  -  A Deepfake Singularity.mp4: too many indices for array: array is 2-dimensional, but 3 were indexed
+Traceback (most recent call last):
+  File "C:\Users\HP\media_forensics_app\app.py", line 346, in process_media
+    detection_result = self.ai_video_detector.detect(uploaded_file, threshold, enable_viz)
+  File "C:\Users\HP\media_forensics_app\detection\ai_video_detector.py", line 55, in detect
+    return self._analyze_video(tmp_path, threshold, enable_viz, start_time)
+  File "C:\Users\HP\media_forensics_app\detection\ai_video_detector.py", line 95, in _analyze_video
+    temporal_score = self._analyze_temporal_consistency(frames)
+  File "C:\Users\HP\media_forensics_app\detection\ai_video_detector.py", line 158, in _analyze_temporal_consistency
+    flow_magnitudes = np.sqrt(flow_vectors[:, 0, 0]**2 + flow_vectors[:, 0, 1]**2)
+IndexError: too many indices for array: array is 2-dimensional, but 3 were indexed
+2025-07-23 06:40:24,272 - root - ERROR - Analysis error: too many indices for array: array is 2-dimensional, but 3 were indexed
+2025-07-23 06:40:34,852 - root - INFO - Memory: 75.1% used
+2025-07-23 06:40:35,868 - root - INFO - CPU: 16.2% used
+2025-07-23 06:40:43,552 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 06:40:43,556 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 06:40:43,556 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 06:40:43,556 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 06:40:43,561 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 06:40:43,561 - config_manager - INFO - User preferences saved successfully
+2025-07-23 06:40:43,561 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 06:40:43,561 - config_manager - INFO - User preferences saved successfully
+2025-07-23 06:40:43,561 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 06:40:43,561 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 06:40:43,565 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 06:40:43,565 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 06:40:43,565 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 06:41:01,875 - root - INFO - Memory: 76.0% used
+2025-07-23 06:41:02,891 - root - INFO - CPU: 15.2% used
+2025-07-23 06:41:10,901 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 06:41:10,905 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 06:41:10,905 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 06:41:10,905 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 06:41:10,910 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 06:41:10,910 - config_manager - INFO - User preferences saved successfully
+2025-07-23 06:41:10,910 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 06:41:10,914 - config_manager - INFO - User preferences saved successfully
+2025-07-23 06:41:10,916 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 06:41:10,916 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 06:41:10,918 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 06:41:10,918 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 06:41:10,918 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 06:41:11,748 - root - INFO - Processing media: IMG_3700.JPG with mode: Detect AI-Generated Image
+2025-07-23 06:42:14,904 - root - INFO - Memory: 78.3% used
+2025-07-23 06:42:15,910 - root - INFO - CPU: 12.2% used
+2025-07-23 06:42:19,553 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 06:42:19,557 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 06:42:19,561 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 06:42:19,561 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 06:42:19,561 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 06:42:19,565 - config_manager - INFO - User preferences saved successfully
+2025-07-23 06:42:19,565 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 06:42:19,565 - config_manager - INFO - User preferences saved successfully
+2025-07-23 06:42:19,565 - config_manager - INFO - User preferences saved successfully
+2025-07-23 06:42:19,567 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 06:42:19,567 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 06:42:19,567 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 06:42:19,567 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 06:42:19,567 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 06:42:20,034 - root - INFO - Processing media: IMG_3700.JPG with mode: Detect AI-Generated Image
+2025-07-23 06:43:05,810 - root - INFO - Memory: 80.3% used
+2025-07-23 06:43:06,814 - root - INFO - CPU: 18.5% used
+2025-07-23 06:43:10,426 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 06:43:10,428 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 06:43:10,429 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 06:43:10,431 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 06:43:10,432 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 06:43:10,434 - config_manager - INFO - User preferences saved successfully
+2025-07-23 06:43:10,434 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 06:43:10,434 - config_manager - INFO - User preferences saved successfully
+2025-07-23 06:43:10,434 - config_manager - INFO - User preferences saved successfully
+2025-07-23 06:43:10,437 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 06:43:10,437 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 06:43:10,437 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 06:43:10,437 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 06:43:10,438 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 06:43:10,612 - root - INFO - Processing media: Screenshot 2025-07-23 020845.png with mode: Detect AI-Generated Image
+2025-07-23 06:43:20,603 - root - INFO - Memory: 82.3% used
+2025-07-23 06:43:21,610 - root - INFO - CPU: 15.2% used
+2025-07-23 06:43:25,210 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 06:43:25,212 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 06:43:25,212 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 06:43:25,214 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 06:43:25,216 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 06:43:25,216 - config_manager - INFO - User preferences saved successfully
+2025-07-23 06:43:25,218 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 06:43:25,218 - config_manager - INFO - User preferences saved successfully
+2025-07-23 06:43:25,218 - config_manager - INFO - User preferences saved successfully
+2025-07-23 06:43:25,220 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 06:43:25,220 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 06:43:25,220 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 06:43:25,220 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 06:43:25,220 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 06:43:25,307 - root - INFO - Processing media: ai-generated-8189352_1280.png with mode: Detect AI-Generated Image
+2025-07-23 06:43:55,528 - root - INFO - Memory: 80.3% used
+2025-07-23 06:43:56,533 - root - INFO - CPU: 15.1% used
+2025-07-23 06:44:00,112 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 06:44:00,112 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 06:44:00,120 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 06:44:00,120 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 06:44:00,124 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 06:44:00,124 - config_manager - INFO - User preferences saved successfully
+2025-07-23 06:44:00,124 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 06:44:00,124 - config_manager - INFO - User preferences saved successfully
+2025-07-23 06:44:00,124 - config_manager - INFO - User preferences saved successfully
+2025-07-23 06:44:00,127 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 06:44:00,127 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 06:44:00,127 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 06:44:00,127 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 06:44:00,127 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 06:44:00,133 - root - INFO - Processing media: download (1).jpg with mode: Detect AI-Generated Image
+2025-07-23 06:44:19,343 - root - INFO - Memory: 81.7% used
+2025-07-23 06:44:20,356 - root - INFO - CPU: 16.2% used
+2025-07-23 06:44:23,923 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 06:44:23,929 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 06:44:23,929 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 06:44:23,933 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 06:44:23,936 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 06:44:23,936 - config_manager - INFO - User preferences saved successfully
+2025-07-23 06:44:23,936 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 06:44:23,936 - config_manager - INFO - User preferences saved successfully
+2025-07-23 06:44:23,936 - config_manager - INFO - User preferences saved successfully
+2025-07-23 06:44:23,936 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 06:44:23,936 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 06:44:23,937 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 06:44:23,937 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 06:44:23,937 - config_manager - INFO - User preferences loaded successfully
+2025-07-23 06:44:24,413 - root - INFO - Processing media: IMG_3737.JPG with mode: Detect AI-Generated Image

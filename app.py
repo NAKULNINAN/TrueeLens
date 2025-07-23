@@ -21,6 +21,7 @@ Config.configure_logging()
 
 # Import custom modules
 from detection.ai_image_detector import AIImageDetector
+from detection.ai_video_detector import AIVideoDetector
 from detection.face_extractor import FaceExtractor
 from models.xception_net import load_xception_model
 from models.meso_net import load_meso_model
@@ -35,7 +36,7 @@ from reports.advanced_batch_processor import AdvancedBatchProcessor
 
 # Configure Streamlit page
 st.set_page_config(
-    page_title="Media Forensics Suite",
+    page_title="TrueLens",
     page_icon="🔍",
     layout="wide",
     initial_sidebar_state="expanded"
@@ -82,6 +83,7 @@ Config.log_system_status()
 class MediaForensicsApp:
     def __init__(self):
         self.ai_detector = AIImageDetector()
+        self.ai_video_detector = AIVideoDetector()
         self.deepfake_detector = DeepfakeDetector()
         self.duplicate_detector = DuplicateDetector()
         self.media_processor = MediaProcessor()
@@ -101,7 +103,7 @@ class MediaForensicsApp:
         # Header
         st.markdown("""
         <div class="main-header">
-            <h1>🔍 Media Forensics Suite</h1>
+            <h1>🔍 TrueLens</h1>
             <p>Advanced AI-powered detection for synthetic media, deepfakes, and duplicates</p>
         </div>
         """, unsafe_allow_html=True)
@@ -118,11 +120,13 @@ class MediaForensicsApp:
                 "🎯 Select Detection Mode:",
                 [
                     "Detect AI-Generated Image",
+                    "Detect AI-Generated Video",
                     "Detect Deepfake Video", 
                     "Detect Duplicate Image/Video"
                 ],
                 index=[
                     "Detect AI-Generated Image",
+                    "Detect AI-Generated Video",
                     "Detect Deepfake Video", 
                     "Detect Duplicate Image/Video"
                 ].index(user_prefs.get('detection_mode', 'Detect AI-Generated Image'))
@@ -147,25 +151,9 @@ class MediaForensicsApp:
                 value=config_manager.get_preference('save_results', Config.SAVE_RESULTS)
             )
             
-            # Model selection for advanced users
-            with st.expander("🔧 Model Selection"):
-                if "Deepfake" in detection_mode:
-                    preferred_model = st.selectbox(
-                        "Deepfake Detection Model:",
-                        ["xception", "meso"],
-                        index=["xception", "meso"].index(
-                            config_manager.get_model_preference('deepfake_detection')
-                        ) if config_manager.get_model_preference('deepfake_detection') in ["xception", "meso"] else 0
-                    )
-                    config_manager.set_model_preference('deepfake_detection', preferred_model)
-                
-                elif "AI-Generated" in detection_mode:
-                    preferred_model = st.selectbox(
-                        "AI Image Detection Model:",
-                        ["efficientnet"],
-                        index=0
-                    )
-                    config_manager.set_model_preference('ai_image_detection', preferred_model)
+            # Set fixed default models
+            config_manager.set_model_preference('deepfake_detection', 'xception')
+            config_manager.set_model_preference('ai_image_detection', 'efficientnet')
             
             # Save preferences when they change
             current_prefs = {
@@ -205,11 +193,6 @@ class MediaForensicsApp:
                     help="Upload MP4, AVI, MOV, or other video formats"
                 )
             
-            # Webcam input option
-            if st.checkbox("📷 Use Webcam (Advanced)"):
-                webcam_image = st.camera_input("Take a photo")
-                if webcam_image:
-                    uploaded_file = webcam_image
         
         with col2:
             st.header("👁️ Preview")
@@ -357,6 +340,15 @@ class MediaForensicsApp:
                 # Check if detector returned an error
                 if 'error' in detection_result:
                     raise ValueError(f"AI detection failed: {detection_result['error']}")
+                results.update(detection_result)
+                
+            elif detection_mode == "Detect AI-Generated Video":
+                detection_result = self.ai_video_detector.detect(uploaded_file, threshold, enable_viz)
+                if detection_result is None:
+                    raise ValueError("AI video detector returned None result")
+                # Check if detector returned an error
+                if 'error' in detection_result:
+                    raise ValueError(f"AI video detection failed: {detection_result['error']}")
                 results.update(detection_result)
                 
             elif detection_mode == "Detect Deepfake Video":

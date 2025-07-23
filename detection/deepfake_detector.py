@@ -5,6 +5,7 @@ import numpy as np
 import tempfile
 import os
 import gc
+import logging
 from functools import lru_cache
 from concurrent.futures import ThreadPoolExecutor
 from typing import List, Dict, Any, Optional
@@ -23,6 +24,9 @@ except ImportError:
 
 class DeepfakeDetector:
     def __init__(self, cache_results: bool = True, batch_size: int = 8, max_memory_mb: int = 2048):
+        # Initialize logger
+        self.logger = logging.getLogger(__name__)
+        
         self.face_extractor = FaceExtractor()
         self.device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
         
@@ -100,7 +104,7 @@ class DeepfakeDetector:
                 pass
     
     def _analyze_video(self, video_path, threshold, enable_viz, start_time):
-        """Analyze video frame by frame for deepfake detection"""
+        """Analyze video frame by frame for deepfake detection with robust face extraction"""
         cap = cv2.VideoCapture(video_path)
         frame_count = int(cap.get(cv2.CAP_PROP_FRAME_COUNT))
         fps = cap.get(cv2.CAP_PROP_FPS)
@@ -108,6 +112,7 @@ class DeepfakeDetector:
         frame_results = []
         processed_frames = 0
         faces_detected = 0
+        failed_face_detection_frames = 0
         
         # Sample frames for efficiency
         sample_rate = max(1, frame_count // 50)  # Process ~50 frames max
@@ -123,8 +128,8 @@ class DeepfakeDetector:
                 frame_idx += 1
                 continue
             
-            # Extract faces using MTCNN
-            faces = self.face_extractor.extract_faces(frame)
+            # Extract faces using robust method (tries multiple detectors and enhancement)
+            faces = self.face_extractor.extract_faces_robust(frame)
             
             if len(faces) > 0:
                 faces_detected += len(faces)
@@ -162,34 +167,44 @@ class DeepfakeDetector:
                         processed_frames += 1
                         
                     except Exception as e:
-                        # Skip problematic faces
+                        # Log face processing errors for debugging
+                        self.logger.warning(f"Face processing failed on frame {frame_idx}, face {face_idx}: {e}")
                         continue
+            else:
+                # Count frames where no faces were detected
+                failed_face_detection_frames += 1
             
             frame_idx += 1
         
         cap.release()
         
-        # Calculate final verdict
+        # Calculate final verdict with enhanced error tracking
         return self._calculate_final_verdict(
             frame_results, faces_detected, frame_count, 
-            fps, threshold, start_time, enable_viz
+            fps, threshold, start_time, enable_viz, failed_face_detection_frames
         )
     
     def _calculate_final_verdict(self, frame_results, faces_detected, 
-                               total_frames, fps, threshold, start_time, enable_viz):
-        """Calculate final deepfake verdict based on frame analysis"""
+                               total_frames, fps, threshold, start_time, enable_viz, failed_face_detection_frames=0):
+        """Calculate final deepfake verdict based on frame analysis with enhanced error tracking"""
         
         if len(frame_results) == 0:
+            if failed_face_detection_frames > 0:
+                explanation = f'No faces detected in video for analysis. Failed to detect faces in {failed_face_detection_frames} sampled frames.'
+            else:
+                explanation = 'No faces detected in video for analysis'
+                
             return {
                 'confidence': 0.0,
                 'is_fake': False,
-                'explanation': 'No faces detected in video for analysis',
+                'explanation': explanation,
                 'processing_time': time.time() - start_time,
                 'model_accuracy': 0.92,
                 'technical_details': {
                     'total_frames': total_frames,
                     'processed_frames': 0,
                     'faces_detected': 0,
+                    'failed_face_detection_frames': failed_face_detection_frames,
                     'fps': fps
                 }
             }

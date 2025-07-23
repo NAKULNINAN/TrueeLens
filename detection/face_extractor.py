@@ -14,12 +14,13 @@ class FaceExtractor:
     def __init__(self, detector_type="mtcnn"):
         self.detector_type = detector_type
         
-        if detector_type == "mtcnn":
-            self.mtcnn = MTCNN(keep_all=True, device='cuda' if torch.cuda.is_available() else 'cpu')
-        elif detector_type == "mediapipe":
-            self.mp_face_detection = mp.solutions.face_detection
-            self.mp_drawing = mp.solutions.drawing_utils
-            self.face_detection = self.mp_face_detection.FaceDetection(model_selection=1, min_detection_confidence=0.5)
+        # Always initialize both detectors for robust extraction
+        self.mtcnn = MTCNN(keep_all=True, device='cuda' if torch.cuda.is_available() else 'cpu')
+        
+        # Initialize MediaPipe components
+        self.mp_face_detection = mp.solutions.face_detection
+        self.mp_drawing = mp.solutions.drawing_utils
+        self.face_detection = self.mp_face_detection.FaceDetection(model_selection=1, min_detection_confidence=0.5)
         
         # Initialize dlib face predictor
         self.predictor_path = "shape_predictor_68_face_landmarks.dat"
@@ -84,6 +85,73 @@ class FaceExtractor:
             return self.extract_faces_mtcnn(frame)
         else:
             return self.extract_faces_mediapipe(frame)
+    
+    def extract_faces_robust(self, frame: np.ndarray) -> List[Tuple[np.ndarray, Tuple[int, int, int, int]]]:
+        """Extract faces with robust fallback mechanism and image enhancement.
+        
+        This method tries multiple detection strategies in order:
+        1. MTCNN on original frame
+        2. MediaPipe on original frame
+        3. MTCNN on enhanced frame (histogram equalization)
+        4. MediaPipe on enhanced frame
+        
+        Returns the results from the first successful detection.
+        """
+        # Try MTCNN first
+        faces = self.extract_faces_mtcnn(frame)
+        if len(faces) > 0:
+            return faces
+        
+        # Try MediaPipe if MTCNN fails
+        faces = self.extract_faces_mediapipe(frame)
+        if len(faces) > 0:
+            return faces
+        
+        # If no faces detected, try with enhanced frame
+        enhanced_frame = self._enhance_frame(frame)
+        
+        # Try MTCNN on enhanced frame
+        faces = self.extract_faces_mtcnn(enhanced_frame)
+        if len(faces) > 0:
+            # Map coordinates back to original frame
+            return [(self._map_face_to_original(face, enhanced_frame, frame), bbox) for face, bbox in faces]
+        
+        # Try MediaPipe on enhanced frame
+        faces = self.extract_faces_mediapipe(enhanced_frame)
+        if len(faces) > 0:
+            # Map coordinates back to original frame
+            return [(self._map_face_to_original(face, enhanced_frame, frame), bbox) for face, bbox in faces]
+        
+        # Return empty list if no faces found
+        return []
+    
+    def _enhance_frame(self, frame: np.ndarray) -> np.ndarray:
+        """Enhance frame quality to improve face detection.
+        
+        Applies histogram equalization to improve contrast and brightness.
+        """
+        # Convert to LAB color space for better enhancement
+        lab = cv2.cvtColor(frame, cv2.COLOR_BGR2LAB)
+        l_channel, a_channel, b_channel = cv2.split(lab)
+        
+        # Apply CLAHE (Contrast Limited Adaptive Histogram Equalization) to L channel
+        clahe = cv2.createCLAHE(clipLimit=2.0, tileGridSize=(8, 8))
+        l_channel_enhanced = clahe.apply(l_channel)
+        
+        # Merge channels back
+        enhanced_lab = cv2.merge([l_channel_enhanced, a_channel, b_channel])
+        enhanced_frame = cv2.cvtColor(enhanced_lab, cv2.COLOR_LAB2BGR)
+        
+        return enhanced_frame
+    
+    def _map_face_to_original(self, face: np.ndarray, enhanced_frame: np.ndarray, original_frame: np.ndarray) -> np.ndarray:
+        """Map face region from enhanced frame back to original frame.
+        
+        Since enhancement doesn't change coordinates, we can extract the same region from original frame.
+        """
+        # For simplicity, we assume the face coordinates are the same
+        # In practice, we could do more sophisticated mapping if needed
+        return face
 
     def align_face(self, face: np.ndarray) -> np.ndarray:
         gray = cv2.cvtColor(face, cv2.COLOR_BGR2GRAY)

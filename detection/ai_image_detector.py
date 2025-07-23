@@ -7,6 +7,7 @@ import numpy as np
 import cv2
 import matplotlib.pyplot as plt
 from PIL import Image, ImageEnhance
+from PIL.ExifTags import TAGS
 import io
 import base64
 from scipy import ndimage
@@ -17,6 +18,7 @@ import warnings
 import requests
 import os
 from urllib.parse import urlparse
+import json
 warnings.filterwarnings('ignore')
 
 
@@ -249,102 +251,121 @@ class DALLEDetector:
             return 75
 
 
-class MidjourneyDetector:
-    """Specialized detector for Midjourney artifacts"""
+class MetadataAnalyzer:
+    """Analyzes image metadata to determine authenticity indicators"""
     
     def __init__(self):
-        self.artistic_threshold = 0.6
-    
-    def detect_artifacts(self, image):
-        """Detect Midjourney-specific artifacts"""
-        # Midjourney images often have characteristic artistic styles
+        # Common camera manufacturers and AI generation tools
+        self.camera_brands = {
+            'Canon', 'Nikon', 'Sony', 'Fujifilm', 'Olympus', 'Panasonic',
+            'Leica', 'Pentax', 'Samsung', 'LG', 'Apple', 'Google', 'OnePlus',
+            'Huawei', 'Xiaomi', 'OPPO', 'Vivo'
+        }
         
-        # Color palette analysis
-        if len(image.shape) == 3:
-            # Reshape image for KMeans
-            pixels = image.reshape(-1, 3)
-            
-            # Find dominant colors
-            kmeans = KMeans(n_clusters=5, random_state=42, n_init=10)
-            kmeans.fit(pixels)
-            colors = kmeans.cluster_centers_
-            
-            # Analyze color harmony (Midjourney tends to have harmonious palettes)
-            color_harmony = self._calculate_color_harmony(colors)
-            
-            # Saturation analysis
-            hsv = cv2.cvtColor(image, cv2.COLOR_RGB2HSV)
-            saturation_mean = np.mean(hsv[:, :, 1])
-            saturation_std = np.std(hsv[:, :, 1])
-        else:
-            color_harmony = 0.5
-            saturation_mean = 128
-            saturation_std = 50
+        self.ai_indicators = {
+            'DALL-E', 'Midjourney', 'Stable Diffusion', 'StyleGAN', 'BigGAN',
+            'Adobe Firefly', 'Runway', 'Artbreeder', 'DeepAI', 'NightCafe',
+            'Generated', 'Synthetic', 'AI', 'Artificial'
+        }
         
-        # Artistic style detection through texture analysis
-        gray = cv2.cvtColor(image, cv2.COLOR_RGB2GRAY) if len(image.shape) == 3 else image
-        
-        # Gradient analysis for painterly effects
-        grad_x = cv2.Sobel(gray, cv2.CV_64F, 1, 0, ksize=3)
-        grad_y = cv2.Sobel(gray, cv2.CV_64F, 0, 1, ksize=3)
-        gradient_magnitude = np.sqrt(grad_x**2 + grad_y**2)
-        
-        # Artistic style indicators
-        gradient_smoothness = 1.0 / (1.0 + np.std(gradient_magnitude))
-        
-        # Frequency domain analysis for artistic patterns
-        fft = np.fft.fft2(gray)
-        fft_magnitude = np.abs(fft)
-        artistic_frequency_pattern = np.mean(fft_magnitude[fft_magnitude > np.percentile(fft_magnitude, 90)])
-        
-        midjourney_confidence = (
-            0.4 * color_harmony +
-            0.3 * gradient_smoothness +
-            0.2 * (saturation_mean / 255.0) +
-            0.1 * min(artistic_frequency_pattern / 1000, 1.0)
-        )
-        
-        return {
-            'midjourney_confidence': float(np.clip(midjourney_confidence, 0, 1)),
-            'color_harmony': float(color_harmony),
-            'gradient_smoothness': float(gradient_smoothness),
-            'saturation_mean': float(saturation_mean),
-            'artistic_pattern_score': float(artistic_frequency_pattern)
+        self.authentic_metadata_fields = {
+            'DateTime', 'DateTimeOriginal', 'DateTimeDigitized',
+            'Make', 'Model', 'Software', 'GPS', 'ExposureTime',
+            'FNumber', 'ISO', 'Flash', 'FocalLength', 'WhiteBalance',
+            'ColorSpace', 'ExifVersion', 'LensModel', 'SerialNumber'
         }
     
-    def _calculate_color_harmony(self, colors):
-        """Calculate color harmony score"""
-        if len(colors) < 2:
-            return 0.5
-        
-        # Convert to HSV for better color analysis
-        colors_hsv = []
-        for color in colors:
-            # Ensure color values are in valid range [0, 255]
-            color_clipped = np.clip(color, 0, 255)
-            rgb = np.uint8([[color_clipped]])
-            hsv = cv2.cvtColor(rgb, cv2.COLOR_RGB2HSV)[0][0]
-            colors_hsv.append(hsv)
-        
-        # Calculate hue differences (OpenCV hue is 0-179, not 0-359)
-        hues = [c[0] for c in colors_hsv]
-        hue_diffs = []
-        for i in range(len(hues)):
-            for j in range(i + 1, len(hues)):
-                diff = min(abs(hues[i] - hues[j]), 180 - abs(hues[i] - hues[j]))
-                hue_diffs.append(diff)
-        
-        # Harmony is higher when hues are complementary or analogous (adjusted for OpenCV 0-179 range)
-        harmony_score = 0
-        for diff in hue_diffs:
-            if 15 <= diff <= 30:  # Analogous (scaled to 0-179)
-                harmony_score += 0.8
-            elif 75 <= diff <= 105:  # Complementary (scaled to 0-179)
-                harmony_score += 1.0
-            elif diff < 15:  # Too similar
-                harmony_score += 0.3
-        
-        return harmony_score / len(hue_diffs) if hue_diffs else 0.5
+    def analyze_metadata(self, image):
+        """Analyze image metadata for authenticity indicators"""
+        try:
+            # Extract EXIF data
+            exif_data = {}
+            if hasattr(image, '_getexif') and image._getexif() is not None:
+                exif_dict = image._getexif()
+                for tag_id, value in exif_dict.items():
+                    tag_name = TAGS.get(tag_id, tag_id)
+                    exif_data[tag_name] = value
+            
+            # Check for basic metadata presence
+            has_exif = len(exif_data) > 0
+            has_camera_info = any(field in exif_data for field in ['Make', 'Model'])
+            has_datetime = any(field in exif_data for field in ['DateTime', 'DateTimeOriginal'])
+            has_technical_data = any(field in exif_data for field in ['ExposureTime', 'FNumber', 'ISO'])
+            
+            # Check for camera brand
+            camera_brand_detected = False
+            if 'Make' in exif_data:
+                make = str(exif_data['Make']).strip()
+                camera_brand_detected = any(brand.lower() in make.lower() for brand in self.camera_brands)
+            
+            # Check for AI generation indicators
+            ai_indicators_found = []
+            for field, value in exif_data.items():
+                value_str = str(value).lower()
+                for indicator in self.ai_indicators:
+                    if indicator.lower() in value_str:
+                        ai_indicators_found.append(f"{field}: {indicator}")
+            
+            # Calculate authenticity score based on metadata
+            authenticity_score = 0.0
+            
+            # Positive indicators (suggest real image)
+            if has_exif:
+                authenticity_score += 0.2
+            if has_camera_info:
+                authenticity_score += 0.2
+            if has_datetime:
+                authenticity_score += 0.15
+            if has_technical_data:
+                authenticity_score += 0.2
+            if camera_brand_detected:
+                authenticity_score += 0.15
+            
+            # Count of authentic metadata fields
+            authentic_fields_count = sum(1 for field in self.authentic_metadata_fields if field in exif_data)
+            if authentic_fields_count >= 5:
+                authenticity_score += 0.1
+            
+            # Negative indicators (suggest AI generation)
+            if ai_indicators_found:
+                authenticity_score -= 0.5  # Strong negative indicator
+            
+            # Normalize score
+            authenticity_score = max(0.0, min(1.0, authenticity_score))
+            
+            return {
+                'has_metadata': has_exif,
+                'has_camera_info': has_camera_info,
+                'has_datetime': has_datetime,
+                'has_technical_data': has_technical_data,
+                'camera_brand_detected': camera_brand_detected,
+                'ai_indicators_found': ai_indicators_found,
+                'authentic_fields_count': authentic_fields_count,
+                'authenticity_score': authenticity_score,
+                'metadata_summary': {
+                    'total_fields': len(exif_data),
+                    'camera_make': exif_data.get('Make', 'Unknown'),
+                    'camera_model': exif_data.get('Model', 'Unknown'),
+                    'software': exif_data.get('Software', 'Unknown'),
+                    'datetime': exif_data.get('DateTime', 'Unknown')
+                }
+            }
+            
+        except Exception as e:
+            print(f"Metadata analysis failed: {e}")
+            return {
+                'has_metadata': False,
+                'has_camera_info': False,
+                'has_datetime': False,
+                'has_technical_data': False,
+                'camera_brand_detected': False,
+                'ai_indicators_found': [],
+                'authentic_fields_count': 0,
+                'authenticity_score': 0.0,
+                'metadata_summary': {'total_fields': 0}
+            }
+
+
 
 
 class EfficientNetAIDetector(nn.Module):
@@ -429,7 +450,7 @@ class AIImageDetector:
         # Initialize specialized detectors
         self.stylegan_detector = StyleGANDetector()
         self.dalle_detector = DALLEDetector()
-        self.midjourney_detector = MidjourneyDetector()
+        self.metadata_analyzer = MetadataAnalyzer()
         
         # Image preprocessing transforms
         self.transform = transforms.Compose([
@@ -520,14 +541,21 @@ class AIImageDetector:
             # Run specialized artifact detectors
             stylegan_results = self.stylegan_detector.detect_artifacts(image_np)
             dalle_results = self.dalle_detector.detect_artifacts(image_np)
-            midjourney_results = self.midjourney_detector.detect_artifacts(image_np)
+            midjourney_results = {'midjourney_confidence': 0}
             
-            # Combine results with weighted scoring
+            # Analyze metadata
+            metadata_results = self.metadata_analyzer.analyze_metadata(image)
+            
+            # Combine results with weighted scoring, incorporating metadata authenticity
+            # Higher authenticity score from metadata reduces AI confidence
+            metadata_adjustment = (1.0 - metadata_results['authenticity_score']) * 0.15
+            
             combined_confidence = (
-                0.4 * ai_confidence +
+                0.35 * ai_confidence +
                 0.2 * stylegan_results['stylegan_confidence'] +
                 0.2 * dalle_results['dalle_confidence'] +
-                0.2 * midjourney_results['midjourney_confidence']
+                metadata_adjustment
+                # Midjourney detector disabled: 0.2 * midjourney_results['midjourney_confidence']
             )
             
             # Determine if image is likely AI-generated
@@ -535,7 +563,7 @@ class AIImageDetector:
             
             # Generate explanation
             explanation = self._generate_explanation(
-                combined_confidence, stylegan_results, dalle_results, midjourney_results
+                combined_confidence, stylegan_results, dalle_results, midjourney_results, metadata_results
             )
             
             # Prepare visualizations
@@ -547,7 +575,7 @@ class AIImageDetector:
                     'Base Model': ai_confidence,
                     'StyleGAN': stylegan_results['stylegan_confidence'],
                     'DALL-E': dalle_results['dalle_confidence'],
-                    'Midjourney': midjourney_results['midjourney_confidence']
+                    # 'Midjourney': midjourney_results['midjourney_confidence']
                 })
             
             processing_time = time.time() - start_time
@@ -563,6 +591,7 @@ class AIImageDetector:
                     'stylegan_analysis': stylegan_results,
                     'dalle_analysis': dalle_results,
                     'midjourney_analysis': midjourney_results,
+                    'metadata_analysis': metadata_results,
                     'threshold_used': threshold,
                     'model_type': self.model_name
                 },
@@ -588,7 +617,7 @@ class AIImageDetector:
                 'processing_time': time.time() - start_time
             }
     
-    def _generate_explanation(self, confidence, stylegan_res, dalle_res, midjourney_res):
+    def _generate_explanation(self, confidence, stylegan_res, dalle_res, midjourney_res, metadata_res=None):
         """Generate human-readable explanation"""
         explanations = []
         
@@ -608,8 +637,19 @@ class AIImageDetector:
         if dalle_res['dalle_confidence'] > 0.6:
             explanations.append(f"DALL-E-style patterns detected (confidence: {dalle_res['dalle_confidence']:.1%}).")
         
-        if midjourney_res['midjourney_confidence'] > 0.6:
-            explanations.append(f"Midjourney artistic characteristics detected (confidence: {midjourney_res['midjourney_confidence']:.1%}).")
+        # if midjourney_res['midjourney_confidence'] > 0.6:
+        #    explanations.append(f"Midjourney artistic characteristics detected (confidence: {midjourney_res['midjourney_confidence']:.1%}).")
+        
+        # Add metadata insights
+        if metadata_res:
+            if metadata_res['authenticity_score'] > 0.7:
+                explanations.append(f"Rich metadata suggests authentic camera capture (authenticity: {metadata_res['authenticity_score']:.1%}).")
+            elif metadata_res['authenticity_score'] > 0.4:
+                explanations.append(f"Some authentic metadata present (authenticity: {metadata_res['authenticity_score']:.1%}).")
+            elif not metadata_res['has_metadata']:
+                explanations.append("No metadata found - suspicious for modern digital images.")
+            elif metadata_res['ai_indicators_found']:
+                explanations.append(f"AI generation indicators found in metadata: {', '.join(metadata_res['ai_indicators_found'][:2])}.")
         
         return " ".join(explanations)
     
